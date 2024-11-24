@@ -1,0 +1,9 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 5' test cases in the current suite                                        
+                                              Test Method: 'TestPackage.SampleApiTest.testGetUsers'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @24-11-2024 19:19:34.0309 PM
+[ReportManager] Actual response status code "200" is successful (Between 200 and 299). @24-11-2024 19:19:34.0309 PM
+[ReportManager] Handle response; GET | Response Time: 643ms. @24-11-2024 19:19:34.0330 PM

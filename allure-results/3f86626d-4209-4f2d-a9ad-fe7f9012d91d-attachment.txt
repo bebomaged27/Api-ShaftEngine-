@@ -1,0 +1,1634 @@
+[INFO ] 2024-11-24 19:19:26.351 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.4.20241024[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-24 19:19:26.361 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-11-24 19:19:26.396 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-11-24 19:19:26.412 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-11-24 19:19:26.416 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-11-24 19:19:26.774 [main] Utils - [TestNG] Running:
+  C:\Users\am575\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[INFO ] 2024-11-24 19:19:26.811 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                        'TestPackage.SampleApiTest.setup'                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-24 19:19:27.390 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-24 19:19:27.393 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-11-24 19:19:27.514 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of setup services configuration method                                            
+                                                    'TestPackage.SampleApiTest.setupServices'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-24 19:19:27.584 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 5' test cases in the current suite                                        
+                                            Test Method: 'TestPackage.SampleApiTest.testGetCompanies'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-11-24 19:19:28.465 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-24 19:19:28.468 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-24 19:19:28.470 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/am575/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-24 19:19:28.780 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-11-24 19:19:28.780 [main] BasicClientConnectionManager - Get connection for route {s}->https://fake-json-api.mock.beeceptor.com:443
+[DEBUG] 2024-11-24 19:19:28.804 [main] DefaultClientConnectionOperator - Connecting to fake-json-api.mock.beeceptor.com:443
+[DEBUG] 2024-11-24 19:19:28.810 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[INFO ] 2024-11-24 19:19:29.450 [] ReportManager - Loaded OpenCV "opencv_java490".
+[DEBUG] 2024-11-24 19:19:29.749 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-24 19:19:29.750 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-24 19:19:29.750 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-24 19:19:29.751 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-24 19:19:29.751 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-11-24 19:19:29.751 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-24 19:19:29.752 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-24 19:19:29.752 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-11-24 19:19:29.753 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-24 19:19:29.753 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.2)[\r][\n]"
+[DEBUG] 2024-11-24 19:19:29.753 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-24 19:19:29.753 [] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-24 19:19:29.753 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-11-24 19:19:29.753 [] headers - >> Accept: */*
+[DEBUG] 2024-11-24 19:19:29.753 [] headers - >> Host: api.github.com
+[DEBUG] 2024-11-24 19:19:29.753 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-24 19:19:29.753 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.2)
+[DEBUG] 2024-11-24 19:19:29.753 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-24 19:19:29.793 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-24 19:19:29.793 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-24 19:19:29.793 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-24 19:19:29.793 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-24 19:19:29.793 [main] DefaultClientConnection - Sending request: GET /companies HTTP/1.1
+[DEBUG] 2024-11-24 19:19:29.793 [main] wire -  >> "GET /companies HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-24 19:19:29.793 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-24 19:19:29.793 [main] wire -  >> "Host: fake-json-api.mock.beeceptor.com[\r][\n]"
+[DEBUG] 2024-11-24 19:19:29.793 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-24 19:19:29.793 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.2)[\r][\n]"
+[DEBUG] 2024-11-24 19:19:29.793 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-24 19:19:29.793 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-24 19:19:29.793 [main] headers - >> GET /companies HTTP/1.1
+[DEBUG] 2024-11-24 19:19:29.793 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-24 19:19:29.794 [main] headers - >> Host: fake-json-api.mock.beeceptor.com
+[DEBUG] 2024-11-24 19:19:29.794 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-24 19:19:29.794 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.2)
+[DEBUG] 2024-11-24 19:19:29.794 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-24 19:19:30.006 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.013 [] wire -  << "Date: Sun, 24 Nov 2024 17:19:27 GMT[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.013 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.013 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.014 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.014 [] wire -  << "ETag: W/"e4e219c9681128a40033a958333db6680eb9149ed827998b6f7b01a71240a513"[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.014 [] wire -  << "Last-Modified: Thu, 24 Oct 2024 15:00:43 GMT[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.014 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.014 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.014 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.014 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.014 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.014 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.015 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.015 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.015 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.015 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.015 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.015 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.015 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.015 [] wire -  << "X-RateLimit-Remaining: 57[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.015 [] wire -  << "X-RateLimit-Reset: 1732470611[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.015 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.015 [] wire -  << "X-RateLimit-Used: 3[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.015 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.015 [] wire -  << "Content-Length: 1988[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.015 [] wire -  << "X-GitHub-Request-Id: E50C:15F208:10A0311:10D690D:6743601F[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.015 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.016 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-24 19:19:30.016 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-24 19:19:30.016 [] headers - << Date: Sun, 24 Nov 2024 17:19:27 GMT
+[DEBUG] 2024-11-24 19:19:30.016 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-11-24 19:19:30.016 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << ETag: W/"e4e219c9681128a40033a958333db6680eb9149ed827998b6f7b01a71240a513"
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << Last-Modified: Thu, 24 Oct 2024 15:00:43 GMT
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << X-Frame-Options: deny
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << Content-Encoding: gzip
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << Server: github.com
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << X-RateLimit-Remaining: 57
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << X-RateLimit-Reset: 1732470611
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << X-RateLimit-Used: 3
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << Content-Length: 1988
+[DEBUG] 2024-11-24 19:19:30.017 [] headers - << X-GitHub-Request-Id: E50C:15F208:10A0311:10D690D:6743601F
+[DEBUG] 2024-11-24 19:19:30.033 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.033 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.033 [main] wire -  << "Alt-Svc: h3=":443"; ma=2592000[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.033 [main] wire -  << "Content-Length: 3808[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.033 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.033 [main] wire -  << "Date: Sun, 24 Nov 2024 17:19:27 GMT[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.033 [main] wire -  << "Vary: Accept-Encoding[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.033 [main] wire -  << "X-Beeceptor-Rule-Id: q4eue1qhx[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.034 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-24 19:19:30.034 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-24 19:19:30.034 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-24 19:19:30.034 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-11-24 19:19:30.034 [main] headers - << Alt-Svc: h3=":443"; ma=2592000
+[DEBUG] 2024-11-24 19:19:30.034 [main] headers - << Content-Length: 3808
+[DEBUG] 2024-11-24 19:19:30.034 [main] headers - << Content-Type: application/json
+[DEBUG] 2024-11-24 19:19:30.034 [main] headers - << Date: Sun, 24 Nov 2024 17:19:27 GMT
+[DEBUG] 2024-11-24 19:19:30.034 [main] headers - << Vary: Accept-Encoding
+[DEBUG] 2024-11-24 19:19:30.034 [main] headers - << X-Beeceptor-Rule-Id: q4eue1qhx
+[DEBUG] 2024-11-24 19:19:30.038 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-11-24 19:19:30.038 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2024-11-24 19:19:30.039 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-24 19:19:30.040 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]Yko[0xe3][0xb6][0x12][0xfd]+[0x82][0x8b][0xe2][0x2][0x8b][0x95],[0xd9][0xf2]#[0x2][0x8a][0xde]$vw[0x8b]n[0xb2][0xed]6Eq[0xfb][0x80]AI[0xb4]DG[0x12][0xb5]$[0xe5][0xac][0x1b][0xec]"
+[DEBUG] 2024-11-24 19:19:30.041 [] wire -  << "[0xbf][0x87][0x94][0x1c][0xc7][0x86][0x9b]x#[0xed][0x87]8[0xb4]l[0xcf][0xc][0xe7]q[0xe6]px[0xdf][0xab]D[0xd6][0xb]z[0xa9]R[0xa5][0xc][0xfa]}R2'a*[0xad]B'[0xe2]y_[0xd0][0x92][0xcb][0xfe][0xaf])Y[0xaa][0xb7][0xbf][0xf4]}{[0xfe][0xc3][0xcd]b~[0xfd][0xe6][0xc7][0xeb]9>[0xca]([0x91]T[0xf6][0xbd][0xa9]7[0x19][0xb9]#[0xdf][0xed][0xbd][0xee][0x11])[0xa9][0x92][0x8b][0xee]d[0xf6]k[0x89][0x10]][0x95][0x19]'[0xf1][0x81][0xe8][0xfa][0xa1]|[0xb1][0xc9][0x8d][0xf8][0xfb][0xef][0xb][0x92][0xd3][0xd7][0x19][0x9]i[0xf6][0x19][0xba]R[0x95]g[0x7][0x9a][0x1e]9[0xe5]iw([0x92][0xf4][0xa7][0x8e][0xef][0xc][0xdc][0x81][0xef][0xe1][0xf][0xe2]X[0xdc][0xb][0x1e][0xbc][0x4]'U*[0xe5][0xa2][0x17][0xdc][0xf7]2[0x9e][0xb0][0x2][0xde][0xaf][0x85][0xdb]$R[0x8c][0x17][0xf2][0xcf][0x90][0xab][0xbf][0x9b][0x9f][0xf9][0xde][0xf4]l:[0x98][0xe]^[0xf7][\n]"
+[DEBUG] 2024-11-24 19:19:30.041 [] wire -  << "[0x1e][0xd3][0x85][0x96][0xd4][0xbb][0x9a]][0x8d][0xc9][0xcf][0xdc][0xeb][0xd9][0xdc][0x93]l[0xde][0xcf]~[0xfc]N[0xfb]~M[0x14][0x11][0x87][0xbe]7[0xf][0xb7][0xe][0xaa]$[0x15][0x11]/[0x14]-[0x94][0x9]/+[0xfa][0xde]h8[0x9e]~[0xbf][0xfe]N[0xdb][0x99][0x88]F[0x86]Q[0xa3]}[0xfe]Tnha[0xb2][0xbf]o[0xfa][0xb7][0xa3][0xb][0x18][0xff][0xed]h[0xf6][0xac][0x13]IY[0x1e][0xfe][0x18][0xbf]Y[0xf2],[0xe3]w[0x90]{[0xb8][0x8d][0xfd][0xb4]|Ru[0xff]A[0xc8][0x83]@V$[0xed][0x5]B[0xc8]}[0x9f][0xab][0x94][0xc2][0xc7][0xd8][0xba][0xce][0x93][0x84][0xc9][0xe7][0xb2][0xfd]iS[0x8d][0x80]{8Q*[0xc4]V[0x8b][0x94][0x8][0x97][0xa0][0x87]y~P[0x96]O[0xb]mD[0xc0][0xd8][0xbb][0x2]v[0xde][0x9b]*6[0xb2][0xab]PF[0x82][0x95]&[0xcb][0xda]8dO[0x10][0x4]s[0x91][0x90][0x82][0xfd]CZ[0xb][0x86] [0x9]y[0x6]v[0xda][0x18]h[0x4]@[0x10]]#[0xd5][I[0xaa]%[0xdc][0xf7]K[0xc1][0xd6]$[0xda]h7[\n]"
+[DEBUG] 2024-11-24 19:19:30.041 [] wire -  << "[0x1a]Q[0xb6]F[0x8c][0xda]K?[0x10][0x5][0xe1]jSR[0x14][0xdf][0x5]Wx[0xa3][0xe3][0xbc]X3z[0xb7]h[0x1e][0x97]U[0x98][0xb1]H[0x87][0x92])[0xba] q[0xae][0xe1]cI2I??F[0x88][0xf][0xf3][0xc5][0xed][0xdd][0xec][0xfd][0xe5][0x1b]z3[0x96][0xfe]O[0xde]o[0xf2]J[0x8b]&[0xc9]B[0xe3][0x1c][0xc4][0x1f][0x0][0x14]r.[0xa1]j[0x1]H[0xc8][0x99]b2[0xc5]7r[0x2][0xd1][0x90]y[0xf4][0xfb][0xb1]@Ch[0x14][0xbf][0xee][0x95][0x82]6[0xcd][0xe0][0xe1]Q$(Q[0xf0][0x10][0xc1][0xb7]z[0x1a][0x9]m[0xcf][0xb5][0x7][0xfe][0x8d]7[\n]"
+[DEBUG] 2024-11-24 19:19:30.041 [] wire -  << "\7[0xf0][0xfc]? [0xda][0xec]E[0xa6][0xff][0xfa]-[0xa8][0xbf][0xd5][0xe0][0xf0][0xe7][0xdf]z[0x3]"$[0xd9]!2[0x9f][0xde][0xb2][0x9a][0xdf][0x1f][0xc2][0xf3]?[0xac]l%[0xb6][0xf9][0xfd][0xa1][0xd8][0x90][0xc7][0x1b][0xec][0xfe][0x9b]o[0xac][0xdf]S[0xa2][0xfe]#[0xad][0xcb][0x94][0x14][0x9][0x8d][0xff]*^Y[0x1f](bG[0xad][0xaa][0x4][0xe4][0xc6][0xd4][\n]"
+[DEBUG] 2024-11-24 19:19:30.041 [] wire -  << "7[0xd6][0xaf]xJB[0xbc]0j[0xb1][0xc2][0xda][0xf6][0xe3][0xe7][0xda]NYeY[0xdf][0x9b][0xc][0x86]Z[0xea]E[0x95][0x97][0x16][0x82][0xe8]$[0x9c]'[0x19]u"[0xb1])[0x15]w[0x14]+n[0x3][0xfd]b-[0x5][0xcf]-[0xcf][0xf1]|[0xc7][0xb3][0x14][0xd7][0xab][0x91][0xe3][0x1a][0xed]1-i[0x11][0x13][0x80][0xf7]K[0xb4][0x8f][0x1f][0xb4][0xa3][0x80][0x9d][\r][0xc9][0xb3]@[0x16][0xe4][0x96][0xea]U[0xad]t[0xe0][0xc][0xb4][0xc6][0x81]3[0xec]@[0xdd]hO[0x1d])I[0x94]R[0x7][0xbd][0x14][0xcd]4[0xd1][0xff][0xfd]U`^m[0xcf][0x19][0xd8]H[0x8f][0x7][0x13][0x86][0xf5][0xbe]a[0x8c][0xdf][0xc5][0xbe][0x87][0xde][0xa9][0x86]D\[0xd0][0xaf]f[0x85]{[0xaa][0x15]2[[0xfa][0xab][0x81][0xcd][0xf2]r[0x17][0x95][0x8e]]28;[0xd5][0x98][0xaf][0x18][0x97][0xc1]T[0x1b]![0xa8],i[0xa4][0xac]%[0x17][0x11][0xbd]Lit{C?[0xa9][0xdf][0x89][0xbc][0x1][0xc4][0xc6][0x97][0x1c]m6R[0xd9][0xa6]}[0xf1][\r][0x7]Z][0xc][0xa2][0x15][0x82][0x10][0xdf]P[0xb4][0xf4][0xe][0x84][0x9a][0x8a]68[0x8a][0xac][0xb6][\n]"
+[DEBUG] 2024-11-24 19:19:30.041 [] wire -  << "zg[0xa9][0x8e]$[0xfb]{![0x92][0xe0][0xf1][0x5][0xab][0xf2][0xf4][0xa3][0xb3]][0x6][0xdb][0x85][0xbd][0x2]![0xac][0xf3][0x16][0x84]V[0xd7][0xc]j[0x18][0xab]NP[0xc3][0xdf]a[0x16][0xe3]NTEU[0x1e]R[0x11]l[0x17]v[0xc9]"[0xae][0xc9]*[0x1a][0x11][0x15][0xb5][0x11][0x13][0xc7][0x9b][0xd6]%[0x8c][0xd5]Y[0x17]%[0xec][0xef]J[0xf8][0xa8][0x11];[0x7]|[0x5][0xdd][0xbb][0xc2]=[0xaa][[0xc7][0x1b][0xa1]7[0xa0][0xdd][0xbd][0xf6][0xe1][0xd1]J[0xcd][0x9][0x18][0x93]Sf[0x15][0xb0]T[0x6][0xe6][0x9d][0x9d][0x94][0x89]]?[0xa9]m[0x19]:[0x3]g[0xa4]3A/[0xc6][0xed][0xf1]|8[0xd1][0x9]y[0x8d][0xc]G*[0xe6] lVs[0x10]B/[0x3]l[0xb6]n[0x8e]C[0x3][0x7][0x87][0xcd]1[0xa9][0x90][0xdb][0x81]ym[0xb6]5t[0x86][0x8e]k[0xaf][0xa0]R[0xef]M[0xbf][0xf3][0xcc][0xbb][0xd6][0xfd][0xd1][0xdf]oX[0x92][0x17]D[0xf3]9'[0xc2]^[0x5][0xc9][0x82][0xe6][0xbf][0xdd]0"[0xd4][0xbb]]{[0xfe][0xb1][0xd7]]GW[0x1d],s[0x9d]q'[0x99]o`@[0xe3]J[0xed]e[0xaa][0x8] [0xd3][0x9c][0xe9][0xdb][0xbb][0xdc][0xdf]g[0x4][0xab][0xaa]`*0[0xaf]v[0x88]l6)=r<[0xaf][0xde][0x91]Yy[0x1d][0xf8][0xd9]$[0xd2]o%[0xa0][0x98]Z[0x1f][0xe6][0xe7][0xb3][0xab][0xb9][0x93][0xc7]F[0xee][0xf9][0xdb][0xab][0xf9]l[0xf6]v[0xfe][0xee][0xfc][0xdd][0xff]^[0xc0]pF[0xc6]Y9_k,[0x6][0xfb]M,R[0xc4]X[0xf0]RGd[0xe7][0xc4][0xb6]<n[0xb4][0xc3]D[0xcd][0xa4]r[0x1e][0xdd]2[0xc5][0x83][0xe6][0xbf][0xbd][0xa3][0x11]p[0x19][0x92]U+[0xc7][0xaa][0x13]23[0xda][0xf]Y[0xc3][0xaa]N[0xc5][0x83][0xf1][0x16][0xf]&[0xed][0xc3]8:[0x99][0xdf][0x1d]#4M[0x97]2[0x1c][0xaf][0x83][0x9c][0x1a][0x99][0x9c]2[0xe0][0xa1]#[0xf2][0x5]d[0xb3]kCv([0xf6][0x8c]!{d[0xb3]k+v]C[0x1f]4[0x96]D**>[0xe5][0x99][0xb3]"[0xd1]-[0x80][0xcd][0xd1]4H[0x83][[0xd0]<[0xb0][0xb7][0xf][0xec]U|;[0xdd]r`o[0xb2]=[0xf][0xa0][0xa1]wp[0x2][0x19][0xef]s[0x9a]'[0xeb][0xa6][0xf1][0x88][0xa9][0x9b][0xe][0x12]d[0xbc]_[0xb2]O$[0xc8]c[0xc6][0xdb]qX[0xc6][0x86][0x82][0x92]8[0xb6]" [0xb8][0xb8][0xa0] [0xbd][0x14]<[0x17]pu[0x85][0xb9][0xa1][0xb5][0xcc][0xb6][0x90]EqZ[0x8f]jN[0xc9][0xb3][0xd8]| [0xad][0x1a]"[0xd3]<[0xfe][0x83][0x14][0x9c][0x17]/[0x1]Hc[0x80][0xe7][0xba]g[0xf6][0x12][0x94][0xb5][0x12][0xd4][0x16][0xf4]c[0x5][0x6]c[0xc3]*[0xdb]pp{IXf[0xeb][0x3][0xbd][0xd0]"
+[DEBUG] 2024-11-24 19:19:30.041 [] wire -  << "[0x83]";[0xa7]R[0x92][0x84][0xe2][0x89]M?E[0xd4][0x8c][0xa5]l*[0x4][0x17][0xdb][0x8f][0xda]7[0xa2][0xb1][0xc1][0x12][0xe3][0x98]J*t[0x9d]F[0xa9]>[0x15]`[0x9b]k[0x92][0xb1][0xd8][0xc2][0x98][0xb3][0x3]M[0x6]?[0xb7][0x1d][0x14]^.[0xad][0xdd][0x94][0xc5][0xf5][0xec]P7[0xd8][0xd6]\f|[0x14][0x8e][0x8e][0xa1][0xb4]f[0xae]1[0x8f][0xe][0x98][0x9b][0xe7][0xd6]][0x3][0xdc][0xc6][0xed]$[0xfb]w[0xa8]t[\n]"
+[DEBUG] 2024-11-24 19:19:30.042 [] wire -  << "[0x87][0xd5][0x9c][0x1d]=[0xb][0xd5][0xdf][0x89][0xf6][0xc9][0xce][0x1b]G[0xb5][0xef][0xb1][0xf7][0xae]u?[0xd1]/%[0xf2][0xc9][0x4][\r][0xb6][0xb][0xfb]1[0x97][0x1f]n[0x99][0x9c]^t[0x80]@[0x93]}[0x4][0xfa]w[0xb2]e[0x86]>[0x86]l[\r][0xda]w[0xe9][0x89][0xa9][0xf8][0xc3][0xc6]x,[0x13][0x1f][0x9c][0xb0][0x88]h[0xe8]lWNx[0xe6] w[0xfc]4[0xd9]uN[0xec][0x9f]4hIr'[0xa5][0xa4]>`[0x7][0xf]+[0xfb][0x8e][0x86][0xdb][0xa3][0xd4][0x8][0x13]1s[0x94][0x1a]9~[0x7]A[0xd9]o[0xcf][0xf9]F~[0xcc][0x2][0xf3][\n]"
+[DEBUG] 2024-11-24 19:19:30.042 [] wire -  << "[0xee]X[0x14][0x18]x[0x0]\W[0xb5]n[0xec][0xbd][0xae][0xc6]3G[0xf3][0xf0][0xd6][0xa7][0x9c][0xe9]~B<[0xd3][0x83][0xb7][0xb9][0x88]iB[0x7][0xaa]M[0xf0]5[\r][0xd7][0xb3][0x1d]=[0x2]-[0xd1][0xe2]B[0x96]1[0xb5][0xb1][0xee]p[0x9d]i[0xe9]^gZ[0xa3][0x15][0x9a][0xde]h[0x81][0xa3]h._[0xf7][0xbf][0xb8][0x12][0xfa][0x8d][0xa8][\n]"
+[DEBUG] 2024-11-24 19:19:30.042 [] wire -  << "[0xc5]0[0x96][0xed][0xa0][0x1f][0x8e]M [0xce][0xd1]w~[0xa6][0x2][\n]"
+[DEBUG] 2024-11-24 19:19:30.042 [] wire -  << "sRD[0xd4][0xba][0x11]`IZ[0x13]&[0xbc][0x1f][0xea][0xf6]xQ[0xb1],[0xd6][0xf3][\r][0xf4][0xa3][0xb][0xaa][0xc0][0xa6][0xac]y[0x11][0x97][0x9c][0xe1][0x18]|^[0x90]l#Y=M[0xfa]i#[0x18].[0xc7][0xe4]5Zf[0xfa][0x82][0xe]=4x[0xb5]d[0x9f][0xac][0xa6]3X[0x9][0xc5]`[0xc5][0xdc][0xd9][0xb4][0xef]KS[0x83]Ao([0xcf][0xb8]f[0x17][0x10][0x19][0x91]R[0x9a]]a[0xd6][0x9d]Y3[0xba]fp[0x0][0x9e][0xbf]#y[0x18][0x13]=%3Z[0xd3][0x95][0xc][0xf5][0xe8][0x16][0xfb][0xfe][0xf2][0xb1][0xf7][0xf4][0xd4]c[0xa6][0x19]>[0x1b][0xe4][0xeb]`[0xfe]<5d[0xf3][0xf1][0x15]J[0x7][0xfe]C'[0xfb][0xab][0xc0]][0x81][0x1e][0x83]\b[0xea]%XX[0xa1]X[0xa5]V[0xb5]z[0xcd][0xf5][0x8d][0x1][0xae]![0x19][0x92][0x86][0x9][0xb8]Q[0xf][0xc9][0xcc][0xd7][0xb5][0xdb][0xbf][0xdc][0x89][0xf5][0xd9][0xf6]q [0xba][0xd6][0xa0][0xc3][0x84]}[0xbc][0xfa][0x1][0x97][0x15][0xcd]-[0x8]B[0xfe][0xea]Up[0xf2]5[0x87][0xa9]hAq[0xc5][0x82][0x99][0x13][0xae][0x93][0xdc][0xe9][0xe0][0xcc]q[0x9c][0x83]k,=;2W[0x9b][0x11]G%[0xf7][0x82][0xf1][0xe7][0xff][0x3] [0xcb]][0x1b][0xdf] [0x0][0x0]"
+[DEBUG] 2024-11-24 19:19:30.042 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-24 19:19:30.136 [main] wire -  << "[[\n]"
+[DEBUG] 2024-11-24 19:19:30.136 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:30.136 [main] wire -  << "    "id": 1,[\n]"
+[DEBUG] 2024-11-24 19:19:30.136 [main] wire -  << "    "name": "Nitzsche - Greenfelder",[\n]"
+[DEBUG] 2024-11-24 19:19:30.136 [main] wire -  << "    "address": "51146 Green Pass",[\n]"
+[DEBUG] 2024-11-24 19:19:30.136 [main] wire -  << "    "zip": "23885-1744",[\n]"
+[DEBUG] 2024-11-24 19:19:30.136 [main] wire -  << "    "country": "Portugal",[\n]"
+[DEBUG] 2024-11-24 19:19:30.136 [main] wire -  << "    "employeeCount": 2710,[\n]"
+[DEBUG] 2024-11-24 19:19:30.136 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "marketCap": 9268705484,[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "domain": "yellowish-mini.biz",[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "ceoName": "Ara Reichert"[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "id": 2,[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "name": "Zulauf - Emmerich",[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "address": "7655 Douglas Road",[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "zip": "36002-6307",[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "country": "Australia",[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "employeeCount": 8760,[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "marketCap": 4741858312,[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "domain": "shrill-material.org",[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "ceoName": "Eleanore Reynolds"[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "id": 3,[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "name": "Upton and Sons",[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "address": "596 Rippin Springs",[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "zip": "38868-6310",[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "country": "New Caledonia",[\n]"
+[DEBUG] 2024-11-24 19:19:30.137 [main] wire -  << "    "employeeCount": 9533,[\n]"
+[DEBUG] 2024-11-24 19:19:30.138 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2024-11-24 19:19:30.138 [main] wire -  << "    "marketCap": 3046627168,[\n]"
+[DEBUG] 2024-11-24 19:19:30.138 [main] wire -  << "    "domain": "old-fashioned-know-how"
+[DEBUG] 2024-11-24 19:19:30.139 [main] wire -  << ".biz",[\n]"
+[DEBUG] 2024-11-24 19:19:30.139 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2024-11-24 19:19:30.139 [main] wire -  << "    "ceoName": "Austin Heathcote"[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "id": 4,[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "name": "Schamberger, Halvorson and Rau",[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "address": "4571 Ray Mall",[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "zip": "64149",[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "country": "Vanuatu",[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "employeeCount": 8928,[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "marketCap": 9609515905,[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "domain": "superior-upward.org",[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "ceoName": "Daphne Marquardt"[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "id": 4,[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "name": "Kulas, O&#x27;Hara and Blanda",[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "address": "6678 Market Street",[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "zip": "76364-6943",[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "country": "Slovenia",[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "employeeCount": 2133,[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "marketCap": 6631807620,[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "domain": "inborn-testament.com",[\n]"
+[DEBUG] 2024-11-24 19:19:30.140 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "ceoName": "Jaqueline Douglas"[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "id": 5,[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "name": "Flatley - Wyman",[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "address": "7343 Wisozk Forge",[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "zip": "89547",[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "country": "Algeria",[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "employeeCount": 7713,[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "marketCap": 9947010428,[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "domain": "burdensome-gunpowder.com",[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "ceoName": "Belle Labadie"[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "id": 6,[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "name": "Willms Group",[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "address": "3991 Volkman Inlet",[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "zip": "71490",[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "country": "Dominica",[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "employeeCount": 1252,[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "marketCap": 8471601466,[\n]"
+[DEBUG] 2024-11-24 19:19:30.141 [main] wire -  << "    "domain": "infamous-sledge.net",[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "ceoName": "Myrtle Towne"[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "id": 7,[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "name": "Beer - Olson",[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "address": "4335 Becker Row",[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "zip": "05880",[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "country": "Pitcairn Islands",[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "employeeCount": 3832,[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "marketCap": 1566760526,[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "domain": "beautiful-relish.org",[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "ceoName": "Betty Ernser"[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "id": 8,[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "name": "Williamson - Thiel",[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "address": "15703 Victor Inlet",[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "zip": "06154-1504",[\n]"
+[DEBUG] 2024-11-24 19:19:30.142 [main] wire -  << "    "country": "Albania",[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "    "employeeCount": 2321,[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "    "marketCap": 2293795205,[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "    "domain": "cavernous-mythology.biz",[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "    "ceoName": "Verla Larkin-Bosco"[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "    "id": 9,[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "    "name": "O&#x27;Kon, Barton and Cruickshank",[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "    "address": "8561 Bell Lane",[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "    "zip": "92632-0315",[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "    "country": "Comoros",[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "    "employeeCount": 870,[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2024-11-24 19:19:30.143 [main] wire -  << "    ""
+[DEBUG] 2024-11-24 19:19:30.144 [main] wire -  << "marketCap": 5216050566,[\n]"
+[DEBUG] 2024-11-24 19:19:30.144 [main] wire -  << "    "domain": "knowing-fetus.info",[\n]"
+[DEBUG] 2024-11-24 19:19:30.144 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2024-11-24 19:19:30.144 [main] wire -  << "    "ceoName": "Lavon Ullrich"[\n]"
+[DEBUG] 2024-11-24 19:19:30.144 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:30.144 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:30.144 [main] wire -  << "    "id": 10,[\n]"
+[DEBUG] 2024-11-24 19:19:30.144 [main] wire -  << "    "name": "Cruickshank Group",[\n]"
+[DEBUG] 2024-11-24 19:19:30.144 [main] wire -  << "    "address": "81340 Connelly Ford",[\n]"
+[DEBUG] 2024-11-24 19:19:30.144 [main] wire -  << "    "zip": "92641-5524",[\n]"
+[DEBUG] 2024-11-24 19:19:30.144 [main] wire -  << "    "country": "Vanuatu",[\n]"
+[DEBUG] 2024-11-24 19:19:30.145 [main] wire -  << "    "employeeCount": 7225,[\n]"
+[DEBUG] 2024-11-24 19:19:30.145 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2024-11-24 19:19:30.145 [main] wire -  << "    "marketCap": 7995809270,[\n]"
+[DEBUG] 2024-11-24 19:19:30.145 [main] wire -  << "    "domain": "huge-heir.name",[\n]"
+[DEBUG] 2024-11-24 19:19:30.145 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2024-11-24 19:19:30.145 [main] wire -  << "    "ceoName": "Magali Mante"[\n]"
+[DEBUG] 2024-11-24 19:19:30.145 [main] wire -  << "  }[\n]"
+[DEBUG] 2024-11-24 19:19:30.145 [main] wire -  << "]"
+[DEBUG] 2024-11-24 19:19:30.145 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@430212cb
+[DEBUG] 2024-11-24 19:19:30.145 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-24 19:19:30.157 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16ecdf6a
+[DEBUG] 2024-11-24 19:19:30.157 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-24 19:19:30.229 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-24 19:19:30.229 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-24 19:19:30.229 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/am575/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-24 19:19:30.245 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-24 19:19:30.246 [main] ReportManager - Actual response status code "200" is successful (Between 200 and 299).
+[INFO ] 2024-11-24 19:19:31.036 [] ReportManager - You're using the latest engine version "8.4.20241024". 👍
+[INFO ] 2024-11-24 19:19:31.042 [main] ReportManager - Handle response; GET | Response Time: 1358ms.
+[INFO ] 2024-11-24 19:19:31.049 [main] ReportManager - COMPANIES: [
+[INFO ] 2024-11-24 19:19:31.049 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:31.049 [main] ReportManager -         "id": 1,
+[INFO ] 2024-11-24 19:19:31.049 [main] ReportManager -         "name": "Nitzsche - Greenfelder",
+[INFO ] 2024-11-24 19:19:31.049 [main] ReportManager -         "address": "51146 Green Pass",
+[INFO ] 2024-11-24 19:19:31.050 [main] ReportManager -         "zip": "23885-1744",
+[INFO ] 2024-11-24 19:19:31.050 [main] ReportManager -         "country": "Portugal",
+[INFO ] 2024-11-24 19:19:31.050 [main] ReportManager -         "employeeCount": 2710,
+[INFO ] 2024-11-24 19:19:31.050 [main] ReportManager -         "industry": "Technology",
+[INFO ] 2024-11-24 19:19:31.050 [main] ReportManager -         "marketCap": 9268705484,
+[INFO ] 2024-11-24 19:19:31.050 [main] ReportManager -         "domain": "yellowish-mini.biz",
+[INFO ] 2024-11-24 19:19:31.050 [main] ReportManager -         "logo": "https://example.com/logo1.png",
+[INFO ] 2024-11-24 19:19:31.050 [main] ReportManager -         "ceoName": "Ara Reichert"
+[INFO ] 2024-11-24 19:19:31.051 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:31.051 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:31.051 [main] ReportManager -         "id": 2,
+[INFO ] 2024-11-24 19:19:31.051 [main] ReportManager -         "name": "Zulauf - Emmerich",
+[INFO ] 2024-11-24 19:19:31.051 [main] ReportManager -         "address": "7655 Douglas Road",
+[INFO ] 2024-11-24 19:19:31.051 [main] ReportManager -         "zip": "36002-6307",
+[INFO ] 2024-11-24 19:19:31.051 [main] ReportManager -         "country": "Australia",
+[INFO ] 2024-11-24 19:19:31.051 [main] ReportManager -         "employeeCount": 8760,
+[INFO ] 2024-11-24 19:19:31.051 [main] ReportManager -         "industry": "Technology",
+[INFO ] 2024-11-24 19:19:31.052 [main] ReportManager -         "marketCap": 4741858312,
+[INFO ] 2024-11-24 19:19:31.052 [main] ReportManager -         "domain": "shrill-material.org",
+[INFO ] 2024-11-24 19:19:31.052 [main] ReportManager -         "logo": "https://example.com/logo1.png",
+[INFO ] 2024-11-24 19:19:31.052 [main] ReportManager -         "ceoName": "Eleanore Reynolds"
+[INFO ] 2024-11-24 19:19:31.052 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:31.052 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:31.052 [main] ReportManager -         "id": 3,
+[INFO ] 2024-11-24 19:19:31.052 [main] ReportManager -         "name": "Upton and Sons",
+[INFO ] 2024-11-24 19:19:31.053 [main] ReportManager -         "address": "596 Rippin Springs",
+[INFO ] 2024-11-24 19:19:31.053 [main] ReportManager -         "zip": "38868-6310",
+[INFO ] 2024-11-24 19:19:31.053 [main] ReportManager -         "country": "New Caledonia",
+[INFO ] 2024-11-24 19:19:31.053 [main] ReportManager -         "employeeCount": 9533,
+[INFO ] 2024-11-24 19:19:31.053 [main] ReportManager -         "industry": "Technology",
+[INFO ] 2024-11-24 19:19:31.053 [main] ReportManager -         "marketCap": 3046627168,
+[INFO ] 2024-11-24 19:19:31.053 [main] ReportManager -         "domain": "old-fashioned-know-how.biz",
+[INFO ] 2024-11-24 19:19:31.053 [main] ReportManager -         "logo": "https://example.com/logo1.png",
+[INFO ] 2024-11-24 19:19:31.053 [main] ReportManager -         "ceoName": "Austin Heathcote"
+[INFO ] 2024-11-24 19:19:31.053 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:31.054 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:31.054 [main] ReportManager -         "id": 4,
+[INFO ] 2024-11-24 19:19:31.054 [main] ReportManager -         "name": "Schamberger, Halvorson and Rau",
+[INFO ] 2024-11-24 19:19:31.054 [main] ReportManager -         "address": "4571 Ray Mall",
+[INFO ] 2024-11-24 19:19:31.054 [main] ReportManager -         "zip": "64149",
+[INFO ] 2024-11-24 19:19:31.054 [main] ReportManager -         "country": "Vanuatu",
+[INFO ] 2024-11-24 19:19:31.054 [main] ReportManager -         "employeeCount": 8928,
+[INFO ] 2024-11-24 19:19:31.054 [main] ReportManager -         "industry": "Technology",
+[INFO ] 2024-11-24 19:19:31.054 [main] ReportManager -         "marketCap": 9609515905,
+[INFO ] 2024-11-24 19:19:31.054 [main] ReportManager -         "domain": "superior-upward.org",
+[INFO ] 2024-11-24 19:19:31.054 [main] ReportManager -         "logo": "https://example.com/logo1.png",
+[INFO ] 2024-11-24 19:19:31.055 [main] ReportManager -         "ceoName": "Daphne Marquardt"
+[INFO ] 2024-11-24 19:19:31.055 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:31.055 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:31.055 [main] ReportManager -         "id": 4,
+[INFO ] 2024-11-24 19:19:31.055 [main] ReportManager -         "name": "Kulas, O&#x27;Hara and Blanda",
+[INFO ] 2024-11-24 19:19:31.055 [main] ReportManager -         "address": "6678 Market Street",
+[INFO ] 2024-11-24 19:19:31.055 [main] ReportManager -         "zip": "76364-6943",
+[INFO ] 2024-11-24 19:19:31.055 [main] ReportManager -         "country": "Slovenia",
+[INFO ] 2024-11-24 19:19:31.055 [main] ReportManager -         "employeeCount": 2133,
+[INFO ] 2024-11-24 19:19:31.056 [main] ReportManager -         "industry": "Technology",
+[INFO ] 2024-11-24 19:19:31.056 [main] ReportManager -         "marketCap": 6631807620,
+[INFO ] 2024-11-24 19:19:31.056 [main] ReportManager -         "domain": "inborn-testament.com",
+[INFO ] 2024-11-24 19:19:31.056 [main] ReportManager -         "logo": "https://example.com/logo1.png",
+[INFO ] 2024-11-24 19:19:31.056 [main] ReportManager -         "ceoName": "Jaqueline Douglas"
+[INFO ] 2024-11-24 19:19:31.056 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:31.057 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:31.057 [main] ReportManager -         "id": 5,
+[INFO ] 2024-11-24 19:19:31.057 [main] ReportManager -         "name": "Flatley - Wyman",
+[INFO ] 2024-11-24 19:19:31.057 [main] ReportManager -         "address": "7343 Wisozk Forge",
+[INFO ] 2024-11-24 19:19:31.057 [main] ReportManager -         "zip": "89547",
+[INFO ] 2024-11-24 19:19:31.057 [main] ReportManager -         "country": "Algeria",
+[INFO ] 2024-11-24 19:19:31.057 [main] ReportManager -         "employeeCount": 7713,
+[INFO ] 2024-11-24 19:19:31.057 [main] ReportManager -         "industry": "Technology",
+[INFO ] 2024-11-24 19:19:31.058 [main] ReportManager -         "marketCap": 9947010428,
+[INFO ] 2024-11-24 19:19:31.058 [main] ReportManager -         "domain": "burdensome-gunpowder.com",
+[INFO ] 2024-11-24 19:19:31.058 [main] ReportManager -         "logo": "https://example.com/logo1.png",
+[INFO ] 2024-11-24 19:19:31.058 [main] ReportManager -         "ceoName": "Belle Labadie"
+[INFO ] 2024-11-24 19:19:31.058 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:31.058 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:31.058 [main] ReportManager -         "id": 6,
+[INFO ] 2024-11-24 19:19:31.058 [main] ReportManager -         "name": "Willms Group",
+[INFO ] 2024-11-24 19:19:31.058 [main] ReportManager -         "address": "3991 Volkman Inlet",
+[INFO ] 2024-11-24 19:19:31.059 [main] ReportManager -         "zip": "71490",
+[INFO ] 2024-11-24 19:19:31.059 [main] ReportManager -         "country": "Dominica",
+[INFO ] 2024-11-24 19:19:31.059 [main] ReportManager -         "employeeCount": 1252,
+[INFO ] 2024-11-24 19:19:31.059 [main] ReportManager -         "industry": "Technology",
+[INFO ] 2024-11-24 19:19:31.059 [main] ReportManager -         "marketCap": 8471601466,
+[INFO ] 2024-11-24 19:19:31.059 [main] ReportManager -         "domain": "infamous-sledge.net",
+[INFO ] 2024-11-24 19:19:31.059 [main] ReportManager -         "logo": "https://example.com/logo1.png",
+[INFO ] 2024-11-24 19:19:31.059 [main] ReportManager -         "ceoName": "Myrtle Towne"
+[INFO ] 2024-11-24 19:19:31.059 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:31.059 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:31.059 [main] ReportManager -         "id": 7,
+[INFO ] 2024-11-24 19:19:31.060 [main] ReportManager -         "name": "Beer - Olson",
+[INFO ] 2024-11-24 19:19:31.060 [main] ReportManager -         "address": "4335 Becker Row",
+[INFO ] 2024-11-24 19:19:31.060 [main] ReportManager -         "zip": "05880",
+[INFO ] 2024-11-24 19:19:31.060 [main] ReportManager -         "country": "Pitcairn Islands",
+[INFO ] 2024-11-24 19:19:31.060 [main] ReportManager -         "employeeCount": 3832,
+[INFO ] 2024-11-24 19:19:31.060 [main] ReportManager -         "industry": "Technology",
+[INFO ] 2024-11-24 19:19:31.060 [main] ReportManager -         "marketCap": 1566760526,
+[INFO ] 2024-11-24 19:19:31.060 [main] ReportManager -         "domain": "beautiful-relish.org",
+[INFO ] 2024-11-24 19:19:31.061 [main] ReportManager -         "logo": "https://example.com/logo1.png",
+[INFO ] 2024-11-24 19:19:31.061 [main] ReportManager -         "ceoName": "Betty Ernser"
+[INFO ] 2024-11-24 19:19:31.061 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:31.061 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:31.061 [main] ReportManager -         "id": 8,
+[INFO ] 2024-11-24 19:19:31.061 [main] ReportManager -         "name": "Williamson - Thiel",
+[INFO ] 2024-11-24 19:19:31.061 [main] ReportManager -         "address": "15703 Victor Inlet",
+[INFO ] 2024-11-24 19:19:31.061 [main] ReportManager -         "zip": "06154-1504",
+[INFO ] 2024-11-24 19:19:31.061 [main] ReportManager -         "country": "Albania",
+[INFO ] 2024-11-24 19:19:31.061 [main] ReportManager -         "employeeCount": 2321,
+[INFO ] 2024-11-24 19:19:31.061 [main] ReportManager -         "industry": "Technology",
+[INFO ] 2024-11-24 19:19:31.062 [main] ReportManager -         "marketCap": 2293795205,
+[INFO ] 2024-11-24 19:19:31.062 [main] ReportManager -         "domain": "cavernous-mythology.biz",
+[INFO ] 2024-11-24 19:19:31.062 [main] ReportManager -         "logo": "https://example.com/logo1.png",
+[INFO ] 2024-11-24 19:19:31.062 [main] ReportManager -         "ceoName": "Verla Larkin-Bosco"
+[INFO ] 2024-11-24 19:19:31.062 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:31.062 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:31.062 [main] ReportManager -         "id": 9,
+[INFO ] 2024-11-24 19:19:31.062 [main] ReportManager -         "name": "O&#x27;Kon, Barton and Cruickshank",
+[INFO ] 2024-11-24 19:19:31.062 [main] ReportManager -         "address": "8561 Bell Lane",
+[INFO ] 2024-11-24 19:19:31.062 [main] ReportManager -         "zip": "92632-0315",
+[INFO ] 2024-11-24 19:19:31.062 [main] ReportManager -         "country": "Comoros",
+[INFO ] 2024-11-24 19:19:31.063 [main] ReportManager -         "employeeCount": 870,
+[INFO ] 2024-11-24 19:19:31.063 [main] ReportManager -         "industry": "Technology",
+[INFO ] 2024-11-24 19:19:31.063 [main] ReportManager -         "marketCap": 5216050566,
+[INFO ] 2024-11-24 19:19:31.063 [main] ReportManager -         "domain": "knowing-fetus.info",
+[INFO ] 2024-11-24 19:19:31.063 [main] ReportManager -         "logo": "https://example.com/logo1.png",
+[INFO ] 2024-11-24 19:19:31.063 [main] ReportManager -         "ceoName": "Lavon Ullrich"
+[INFO ] 2024-11-24 19:19:31.063 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:31.063 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:31.063 [main] ReportManager -         "id": 10,
+[INFO ] 2024-11-24 19:19:31.064 [main] ReportManager -         "name": "Cruickshank Group",
+[INFO ] 2024-11-24 19:19:31.064 [main] ReportManager -         "address": "81340 Connelly Ford",
+[INFO ] 2024-11-24 19:19:31.064 [main] ReportManager -         "zip": "92641-5524",
+[INFO ] 2024-11-24 19:19:31.064 [main] ReportManager -         "country": "Vanuatu",
+[INFO ] 2024-11-24 19:19:31.064 [main] ReportManager -         "employeeCount": 7225,
+[INFO ] 2024-11-24 19:19:31.064 [main] ReportManager -         "industry": "Technology",
+[INFO ] 2024-11-24 19:19:31.064 [main] ReportManager -         "marketCap": 7995809270,
+[INFO ] 2024-11-24 19:19:31.064 [main] ReportManager -         "domain": "huge-heir.name",
+[INFO ] 2024-11-24 19:19:31.064 [main] ReportManager -         "logo": "https://example.com/logo1.png",
+[INFO ] 2024-11-24 19:19:31.065 [main] ReportManager -         "ceoName": "Magali Mante"
+[INFO ] 2024-11-24 19:19:31.065 [main] ReportManager -     }
+[INFO ] 2024-11-24 19:19:31.065 [main] ReportManager - ]
+[INFO ] 2024-11-24 19:19:31.074 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testGetCompanies'
+[INFO ] 2024-11-24 19:19:31.074 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                 Finished Execution of Test Method: 'TestPackage.SampleApiTest.testGetCompanies'                                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-24 19:19:31.181 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 5' test cases in the current suite                                        
+                                           Test Method: 'TestPackage.SampleApiTest.testGetContinents'                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-11-24 19:19:31.187 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-24 19:19:31.187 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-24 19:19:31.187 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/am575/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-24 19:19:31.195 [main] BasicClientConnectionManager - Get connection for route {s}->https://dummy-json.mock.beeceptor.com:443
+[DEBUG] 2024-11-24 19:19:31.541 [main] DefaultClientConnectionOperator - Connecting to dummy-json.mock.beeceptor.com:443
+[DEBUG] 2024-11-24 19:19:31.963 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-24 19:19:31.964 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-24 19:19:31.964 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-24 19:19:31.964 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-24 19:19:31.964 [main] DefaultClientConnection - Sending request: GET /continents HTTP/1.1
+[DEBUG] 2024-11-24 19:19:31.964 [main] wire -  >> "GET /continents HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-24 19:19:31.965 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-24 19:19:31.965 [main] wire -  >> "Host: dummy-json.mock.beeceptor.com[\r][\n]"
+[DEBUG] 2024-11-24 19:19:31.965 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-24 19:19:31.965 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.2)[\r][\n]"
+[DEBUG] 2024-11-24 19:19:31.965 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-24 19:19:31.965 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-24 19:19:31.965 [main] headers - >> GET /continents HTTP/1.1
+[DEBUG] 2024-11-24 19:19:31.965 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-24 19:19:31.966 [main] headers - >> Host: dummy-json.mock.beeceptor.com
+[DEBUG] 2024-11-24 19:19:31.966 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-24 19:19:31.966 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.2)
+[DEBUG] 2024-11-24 19:19:31.966 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-24 19:19:32.168 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.169 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.169 [main] wire -  << "Alt-Svc: h3=":443"; ma=2592000[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.170 [main] wire -  << "Content-Length: 2013[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.170 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.170 [main] wire -  << "Date: Sun, 24 Nov 2024 17:19:29 GMT[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.170 [main] wire -  << "Vary: Accept-Encoding[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.170 [main] wire -  << "X-Beeceptor-Rule-Id: 1y7akc8rdlgi[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.170 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.170 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-24 19:19:32.170 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-24 19:19:32.171 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-11-24 19:19:32.171 [main] headers - << Alt-Svc: h3=":443"; ma=2592000
+[DEBUG] 2024-11-24 19:19:32.171 [main] headers - << Content-Length: 2013
+[DEBUG] 2024-11-24 19:19:32.171 [main] headers - << Content-Type: application/json
+[DEBUG] 2024-11-24 19:19:32.171 [main] headers - << Date: Sun, 24 Nov 2024 17:19:29 GMT
+[DEBUG] 2024-11-24 19:19:32.171 [main] headers - << Vary: Accept-Encoding
+[DEBUG] 2024-11-24 19:19:32.172 [main] headers - << X-Beeceptor-Rule-Id: 1y7akc8rdlgi
+[DEBUG] 2024-11-24 19:19:32.172 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2024-11-24 19:19:32.173 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-24 19:19:32.175 [main] wire -  << "[[\n]"
+[DEBUG] 2024-11-24 19:19:32.175 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.175 [main] wire -  << "    "code": "AF",[\n]"
+[DEBUG] 2024-11-24 19:19:32.175 [main] wire -  << "    "name": "Africa",[\n]"
+[DEBUG] 2024-11-24 19:19:32.175 [main] wire -  << "    "areaSqKm": 30370000,[\n]"
+[DEBUG] 2024-11-24 19:19:32.175 [main] wire -  << "    "population": 1340598000,[\n]"
+[DEBUG] 2024-11-24 19:19:32.175 [main] wire -  << "    "lines": ["Equator", "Prime Meridian"],[\n]"
+[DEBUG] 2024-11-24 19:19:32.175 [main] wire -  << "    "countries": 54,[\n]"
+[DEBUG] 2024-11-24 19:19:32.175 [main] wire -  << "    "oceans": ["Atlantic Ocean, Indian Ocean"],[\n]"
+[DEBUG] 2024-11-24 19:19:32.175 [main] wire -  << "    "developedCountries": ["South Africa", "Egypt", "Nigeria"][\n]"
+[DEBUG] 2024-11-24 19:19:32.175 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "code": "AN",[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "name": "Antarctica",[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "areaSqKm": 14000000,[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "population": 1000,[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "lines": ["Antarctic Circle", "180th Meridian"],[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "countries": 0,[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "oceans": ["Southern Ocean"],[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "developedCountries": [] [\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "code": "AS",[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "name": "Asia",[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "areaSqKm": 44579000,[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "population": 4641055000,[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "lines": ["Equator", "Tropic of Cancer"],[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "countries": 49,[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "oceans": ["Indian Ocean", "Pacific Ocean"],[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "developedCountries": ["Japan", "South Korea", "Singapore", "United Arab Emirates"][\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "code": "EU",[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "name": "Europe",[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "areaSqKm": 10180000,[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "population": 747636000,[\n]"
+[DEBUG] 2024-11-24 19:19:32.176 [main] wire -  << "    "lines": ["Prime Meri"
+[DEBUG] 2024-11-24 19:19:32.177 [main] wire -  << "dian", "Arctic Circle"],[\n]"
+[DEBUG] 2024-11-24 19:19:32.177 [main] wire -  << "    "countries": 44,[\n]"
+[DEBUG] 2024-11-24 19:19:32.177 [main] wire -  << "    "oceans": ["Atlantic Ocean", "Arctic Ocean"],[\n]"
+[DEBUG] 2024-11-24 19:19:32.177 [main] wire -  << "    "developedCountries": ["Germany", "United Kingdom", "France", "Italy", "Spain"][\n]"
+[DEBUG] 2024-11-24 19:19:32.177 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:32.177 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.177 [main] wire -  << "    "code": "NA",[\n]"
+[DEBUG] 2024-11-24 19:19:32.177 [main] wire -  << "    "name": "North America",[\n]"
+[DEBUG] 2024-11-24 19:19:32.177 [main] wire -  << "    "areaSqKm": 24709000,[\n]"
+[DEBUG] 2024-11-24 19:19:32.177 [main] wire -  << "    "population": 579750000,[\n]"
+[DEBUG] 2024-11-24 19:19:32.177 [main] wire -  << "    "lines": ["Tropic of Cancer", "Arctic Circle"],[\n]"
+[DEBUG] 2024-11-24 19:19:32.177 [main] wire -  << "    "countries": 23,[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "oceans": ["Atlantic Ocean", "Pacific Ocean", "Arctic Ocean"],[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "developedCountries": ["United States", "Canada", "Mexico"][\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "code": "OC",[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "name": "Oceania",[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "areaSqKm": 8500000,[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "population": 43155000,[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "lines": ["Tropic of Capricorn", "180th Meridian"],[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "countries": 14,[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "oceans": ["Pacific Ocean"],[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "developedCountries": ["Australia", "New Zealand"][\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "code": "SA",[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "name": "South America",[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "areaSqKm": 17840000,[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "population": 426768000,[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "lines": ["Equator", "Tropic of Capricorn"],[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "countries": 12,[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "oceans": ["Atlantic Ocean", "Pacific Ocean"],[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "    "developedCountries": ["Brazil", "Argentina", "Chile"][\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "  }[\n]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] wire -  << "]"
+[DEBUG] 2024-11-24 19:19:32.178 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@229c4d34
+[DEBUG] 2024-11-24 19:19:32.178 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-24 19:19:32.180 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-24 19:19:32.180 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-24 19:19:32.180 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/am575/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-24 19:19:32.184 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-24 19:19:32.185 [main] ReportManager - Actual response status code "200" is successful (Between 200 and 299).
+[INFO ] 2024-11-24 19:19:32.206 [main] ReportManager - Handle response; GET | Response Time: 983ms.
+[INFO ] 2024-11-24 19:19:32.208 [main] ReportManager - CONTINENTS: [
+[INFO ] 2024-11-24 19:19:32.208 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.208 [main] ReportManager -         "code": "AF",
+[INFO ] 2024-11-24 19:19:32.208 [main] ReportManager -         "name": "Africa",
+[INFO ] 2024-11-24 19:19:32.208 [main] ReportManager -         "areaSqKm": 30370000,
+[INFO ] 2024-11-24 19:19:32.208 [main] ReportManager -         "population": 1340598000,
+[INFO ] 2024-11-24 19:19:32.208 [main] ReportManager -         "lines": [
+[INFO ] 2024-11-24 19:19:32.208 [main] ReportManager -             "Equator",
+[INFO ] 2024-11-24 19:19:32.208 [main] ReportManager -             "Prime Meridian"
+[INFO ] 2024-11-24 19:19:32.208 [main] ReportManager -         ],
+[INFO ] 2024-11-24 19:19:32.208 [main] ReportManager -         "countries": 54,
+[INFO ] 2024-11-24 19:19:32.208 [main] ReportManager -         "oceans": [
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -             "Atlantic Ocean, Indian Ocean"
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -         ],
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -         "developedCountries": [
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -             "South Africa",
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -             "Egypt",
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -             "Nigeria"
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -         ]
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -         "code": "AN",
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -         "name": "Antarctica",
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -         "areaSqKm": 14000000,
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -         "population": 1000,
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -         "lines": [
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -             "Antarctic Circle",
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -             "180th Meridian"
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -         ],
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -         "countries": 0,
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -         "oceans": [
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -             "Southern Ocean"
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -         ],
+[INFO ] 2024-11-24 19:19:32.210 [main] ReportManager -         "developedCountries": [
+[INFO ] 2024-11-24 19:19:32.211 [main] ReportManager -             
+[INFO ] 2024-11-24 19:19:32.211 [main] ReportManager -         ]
+[INFO ] 2024-11-24 19:19:32.211 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:32.211 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.211 [main] ReportManager -         "code": "AS",
+[INFO ] 2024-11-24 19:19:32.211 [main] ReportManager -         "name": "Asia",
+[INFO ] 2024-11-24 19:19:32.211 [main] ReportManager -         "areaSqKm": 44579000,
+[INFO ] 2024-11-24 19:19:32.211 [main] ReportManager -         "population": 4641055000,
+[INFO ] 2024-11-24 19:19:32.211 [main] ReportManager -         "lines": [
+[INFO ] 2024-11-24 19:19:32.211 [main] ReportManager -             "Equator",
+[INFO ] 2024-11-24 19:19:32.211 [main] ReportManager -             "Tropic of Cancer"
+[INFO ] 2024-11-24 19:19:32.211 [main] ReportManager -         ],
+[INFO ] 2024-11-24 19:19:32.211 [main] ReportManager -         "countries": 49,
+[INFO ] 2024-11-24 19:19:32.211 [main] ReportManager -         "oceans": [
+[INFO ] 2024-11-24 19:19:32.212 [main] ReportManager -             "Indian Ocean",
+[INFO ] 2024-11-24 19:19:32.212 [main] ReportManager -             "Pacific Ocean"
+[INFO ] 2024-11-24 19:19:32.212 [main] ReportManager -         ],
+[INFO ] 2024-11-24 19:19:32.212 [main] ReportManager -         "developedCountries": [
+[INFO ] 2024-11-24 19:19:32.212 [main] ReportManager -             "Japan",
+[INFO ] 2024-11-24 19:19:32.212 [main] ReportManager -             "South Korea",
+[INFO ] 2024-11-24 19:19:32.212 [main] ReportManager -             "Singapore",
+[INFO ] 2024-11-24 19:19:32.212 [main] ReportManager -             "United Arab Emirates"
+[INFO ] 2024-11-24 19:19:32.212 [main] ReportManager -         ]
+[INFO ] 2024-11-24 19:19:32.212 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:32.212 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.212 [main] ReportManager -         "code": "EU",
+[INFO ] 2024-11-24 19:19:32.213 [main] ReportManager -         "name": "Europe",
+[INFO ] 2024-11-24 19:19:32.213 [main] ReportManager -         "areaSqKm": 10180000,
+[INFO ] 2024-11-24 19:19:32.213 [main] ReportManager -         "population": 747636000,
+[INFO ] 2024-11-24 19:19:32.213 [main] ReportManager -         "lines": [
+[INFO ] 2024-11-24 19:19:32.213 [main] ReportManager -             "Prime Meridian",
+[INFO ] 2024-11-24 19:19:32.213 [main] ReportManager -             "Arctic Circle"
+[INFO ] 2024-11-24 19:19:32.213 [main] ReportManager -         ],
+[INFO ] 2024-11-24 19:19:32.213 [main] ReportManager -         "countries": 44,
+[INFO ] 2024-11-24 19:19:32.213 [main] ReportManager -         "oceans": [
+[INFO ] 2024-11-24 19:19:32.213 [main] ReportManager -             "Atlantic Ocean",
+[INFO ] 2024-11-24 19:19:32.213 [main] ReportManager -             "Arctic Ocean"
+[INFO ] 2024-11-24 19:19:32.213 [main] ReportManager -         ],
+[INFO ] 2024-11-24 19:19:32.214 [main] ReportManager -         "developedCountries": [
+[INFO ] 2024-11-24 19:19:32.214 [main] ReportManager -             "Germany",
+[INFO ] 2024-11-24 19:19:32.214 [main] ReportManager -             "United Kingdom",
+[INFO ] 2024-11-24 19:19:32.214 [main] ReportManager -             "France",
+[INFO ] 2024-11-24 19:19:32.214 [main] ReportManager -             "Italy",
+[INFO ] 2024-11-24 19:19:32.214 [main] ReportManager -             "Spain"
+[INFO ] 2024-11-24 19:19:32.214 [main] ReportManager -         ]
+[INFO ] 2024-11-24 19:19:32.214 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:32.214 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.214 [main] ReportManager -         "code": "NA",
+[INFO ] 2024-11-24 19:19:32.214 [main] ReportManager -         "name": "North America",
+[INFO ] 2024-11-24 19:19:32.214 [main] ReportManager -         "areaSqKm": 24709000,
+[INFO ] 2024-11-24 19:19:32.214 [main] ReportManager -         "population": 579750000,
+[INFO ] 2024-11-24 19:19:32.215 [main] ReportManager -         "lines": [
+[INFO ] 2024-11-24 19:19:32.215 [main] ReportManager -             "Tropic of Cancer",
+[INFO ] 2024-11-24 19:19:32.215 [main] ReportManager -             "Arctic Circle"
+[INFO ] 2024-11-24 19:19:32.215 [main] ReportManager -         ],
+[INFO ] 2024-11-24 19:19:32.215 [main] ReportManager -         "countries": 23,
+[INFO ] 2024-11-24 19:19:32.215 [main] ReportManager -         "oceans": [
+[INFO ] 2024-11-24 19:19:32.215 [main] ReportManager -             "Atlantic Ocean",
+[INFO ] 2024-11-24 19:19:32.215 [main] ReportManager -             "Pacific Ocean",
+[INFO ] 2024-11-24 19:19:32.215 [main] ReportManager -             "Arctic Ocean"
+[INFO ] 2024-11-24 19:19:32.215 [main] ReportManager -         ],
+[INFO ] 2024-11-24 19:19:32.215 [main] ReportManager -         "developedCountries": [
+[INFO ] 2024-11-24 19:19:32.215 [main] ReportManager -             "United States",
+[INFO ] 2024-11-24 19:19:32.216 [main] ReportManager -             "Canada",
+[INFO ] 2024-11-24 19:19:32.216 [main] ReportManager -             "Mexico"
+[INFO ] 2024-11-24 19:19:32.216 [main] ReportManager -         ]
+[INFO ] 2024-11-24 19:19:32.216 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:32.216 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.216 [main] ReportManager -         "code": "OC",
+[INFO ] 2024-11-24 19:19:32.216 [main] ReportManager -         "name": "Oceania",
+[INFO ] 2024-11-24 19:19:32.216 [main] ReportManager -         "areaSqKm": 8500000,
+[INFO ] 2024-11-24 19:19:32.216 [main] ReportManager -         "population": 43155000,
+[INFO ] 2024-11-24 19:19:32.216 [main] ReportManager -         "lines": [
+[INFO ] 2024-11-24 19:19:32.216 [main] ReportManager -             "Tropic of Capricorn",
+[INFO ] 2024-11-24 19:19:32.216 [main] ReportManager -             "180th Meridian"
+[INFO ] 2024-11-24 19:19:32.216 [main] ReportManager -         ],
+[INFO ] 2024-11-24 19:19:32.217 [main] ReportManager -         "countries": 14,
+[INFO ] 2024-11-24 19:19:32.217 [main] ReportManager -         "oceans": [
+[INFO ] 2024-11-24 19:19:32.217 [main] ReportManager -             "Pacific Ocean"
+[INFO ] 2024-11-24 19:19:32.217 [main] ReportManager -         ],
+[INFO ] 2024-11-24 19:19:32.217 [main] ReportManager -         "developedCountries": [
+[INFO ] 2024-11-24 19:19:32.217 [main] ReportManager -             "Australia",
+[INFO ] 2024-11-24 19:19:32.217 [main] ReportManager -             "New Zealand"
+[INFO ] 2024-11-24 19:19:32.217 [main] ReportManager -         ]
+[INFO ] 2024-11-24 19:19:32.217 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:32.217 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.217 [main] ReportManager -         "code": "SA",
+[INFO ] 2024-11-24 19:19:32.217 [main] ReportManager -         "name": "South America",
+[INFO ] 2024-11-24 19:19:32.217 [main] ReportManager -         "areaSqKm": 17840000,
+[INFO ] 2024-11-24 19:19:32.217 [main] ReportManager -         "population": 426768000,
+[INFO ] 2024-11-24 19:19:32.217 [main] ReportManager -         "lines": [
+[INFO ] 2024-11-24 19:19:32.218 [main] ReportManager -             "Equator",
+[INFO ] 2024-11-24 19:19:32.218 [main] ReportManager -             "Tropic of Capricorn"
+[INFO ] 2024-11-24 19:19:32.218 [main] ReportManager -         ],
+[INFO ] 2024-11-24 19:19:32.218 [main] ReportManager -         "countries": 12,
+[INFO ] 2024-11-24 19:19:32.218 [main] ReportManager -         "oceans": [
+[INFO ] 2024-11-24 19:19:32.218 [main] ReportManager -             "Atlantic Ocean",
+[INFO ] 2024-11-24 19:19:32.218 [main] ReportManager -             "Pacific Ocean"
+[INFO ] 2024-11-24 19:19:32.218 [main] ReportManager -         ],
+[INFO ] 2024-11-24 19:19:32.218 [main] ReportManager -         "developedCountries": [
+[INFO ] 2024-11-24 19:19:32.218 [main] ReportManager -             "Brazil",
+[INFO ] 2024-11-24 19:19:32.218 [main] ReportManager -             "Argentina",
+[INFO ] 2024-11-24 19:19:32.218 [main] ReportManager -             "Chile"
+[INFO ] 2024-11-24 19:19:32.218 [main] ReportManager -         ]
+[INFO ] 2024-11-24 19:19:32.218 [main] ReportManager -     }
+[INFO ] 2024-11-24 19:19:32.218 [main] ReportManager - ]
+[INFO ] 2024-11-24 19:19:32.220 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testGetContinents'
+[INFO ] 2024-11-24 19:19:32.221 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                Finished Execution of Test Method: 'TestPackage.SampleApiTest.testGetContinents'                                
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-24 19:19:32.231 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 5' test cases in the current suite                                        
+                                              Test Method: 'TestPackage.SampleApiTest.testGetPosts'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-11-24 19:19:32.235 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-24 19:19:32.236 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-24 19:19:32.236 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/am575/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-24 19:19:32.248 [main] BasicClientConnectionManager - Get connection for route {s}->https://dummy-json.mock.beeceptor.com:443
+[DEBUG] 2024-11-24 19:19:32.248 [main] DefaultClientConnectionOperator - Connecting to dummy-json.mock.beeceptor.com:443
+[DEBUG] 2024-11-24 19:19:32.728 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-24 19:19:32.728 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-24 19:19:32.728 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-24 19:19:32.728 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-24 19:19:32.728 [main] DefaultClientConnection - Sending request: GET /posts HTTP/1.1
+[DEBUG] 2024-11-24 19:19:32.728 [main] wire -  >> "GET /posts HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.728 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.728 [main] wire -  >> "Host: dummy-json.mock.beeceptor.com[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.728 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.728 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.2)[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.729 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.729 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.729 [main] headers - >> GET /posts HTTP/1.1
+[DEBUG] 2024-11-24 19:19:32.729 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-24 19:19:32.729 [main] headers - >> Host: dummy-json.mock.beeceptor.com
+[DEBUG] 2024-11-24 19:19:32.729 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-24 19:19:32.729 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.2)
+[DEBUG] 2024-11-24 19:19:32.729 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-24 19:19:32.929 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.930 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.930 [main] wire -  << "Alt-Svc: h3=":443"; ma=2592000[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.930 [main] wire -  << "Content-Length: 2489[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.930 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.930 [main] wire -  << "Date: Sun, 24 Nov 2024 17:19:30 GMT[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.931 [main] wire -  << "Vary: Accept-Encoding[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.931 [main] wire -  << "X-Beeceptor-Rule-Id: 6olf781wqk8[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.931 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-24 19:19:32.931 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-24 19:19:32.931 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-24 19:19:32.931 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-11-24 19:19:32.931 [main] headers - << Alt-Svc: h3=":443"; ma=2592000
+[DEBUG] 2024-11-24 19:19:32.932 [main] headers - << Content-Length: 2489
+[DEBUG] 2024-11-24 19:19:32.932 [main] headers - << Content-Type: application/json
+[DEBUG] 2024-11-24 19:19:32.932 [main] headers - << Date: Sun, 24 Nov 2024 17:19:30 GMT
+[DEBUG] 2024-11-24 19:19:32.932 [main] headers - << Vary: Accept-Encoding
+[DEBUG] 2024-11-24 19:19:32.932 [main] headers - << X-Beeceptor-Rule-Id: 6olf781wqk8
+[DEBUG] 2024-11-24 19:19:32.933 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2024-11-24 19:19:32.933 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "[[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "id": 1,[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "title": "Introduction to Artificial Intelligence",[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "body": "Learn the basics of Artificial Intelligence and its applications in various industries.",[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "link": "https://example.com/article1",[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "comment_count": 8[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "userId": 2,[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "id": 2,[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "title": "Web Development with React",[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "body": "Build modern web applications using React.js and explore its powerful features.",[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "link": "https://example.com/article2",[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "comment_count": 12[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "userId": 3,[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "id": 3,[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "title": "Data Science Fundamentals",[\n]"
+[DEBUG] 2024-11-24 19:19:32.934 [main] wire -  << "    "body": "Dive into the world of Data Science and discover how to analyze and interpret data.",[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "link": "https://example.com/article3",[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "comment_count": 5[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "userId": 4,[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "id": 4,[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "title": "Machine Learning Algorithms",[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "body": "Explore various Machine Learning algorithms and understand their workings.",[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "link": "https://example"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << ".com/article4",[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "comment_count": 17[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "userId": 5,[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "id": 5,[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "title": "Introduction to Blockchain",[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "body": "Learn about Blockchain technology, its use-cases, and how it ensures secure transactions.",[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "link": "https://example.com/article5",[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "comment_count": 3[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "userId": 6,[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "id": 6,[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "title": "iOS App Development",[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "body": "Get started with iOS app development using Swift and create feature-rich applications.",[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "link": "https://example.com/article6",[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "comment_count": 10[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.935 [main] wire -  << "    "userId": 7,[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "id": 7,[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "title": "Python for Data Analysis",[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "body": "Utilize Python libraries like Pandas and NumPy for data manipulation and analysis.",[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "link": "https://example.com/article7",[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "comment_count": 15[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "userId": 8,[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "id": 8,[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "title": "Cybersecurity Best Practices",[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "body": "Learn essential cybersecurity practices to safeguard your digital assets.",[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "link": "https://example.com/article8",[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "comment_count": 6[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "userId": 9,[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "id": 9,[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "title": "Cloud Computing Essentials",[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "body": "Understand the fundamentals of Cloud Computing and its benefits for businesses.",[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "link": "https://example.com/article9",[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "comment_count": 9[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "userId": 10,[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "id": 10,[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "title": "Introduction to UX Design",[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "body": "Discover the principles of User Experience (UX) design and create intuitive user interfaces.",[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "link": "https://example.com/article10",[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "    "comment_count": 21[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "  }[\n]"
+[DEBUG] 2024-11-24 19:19:32.936 [main] wire -  << "]"
+[DEBUG] 2024-11-24 19:19:32.937 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5248c05a
+[DEBUG] 2024-11-24 19:19:32.937 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-24 19:19:32.938 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-24 19:19:32.938 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-24 19:19:32.938 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/am575/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-24 19:19:32.941 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-24 19:19:32.941 [main] ReportManager - Actual response status code "200" is successful (Between 200 and 299).
+[INFO ] 2024-11-24 19:19:32.957 [main] ReportManager - Handle response; GET | Response Time: 691ms.
+[INFO ] 2024-11-24 19:19:32.958 [main] ReportManager - POSTS: [
+[INFO ] 2024-11-24 19:19:32.958 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.958 [main] ReportManager -         "userId": 1,
+[INFO ] 2024-11-24 19:19:32.958 [main] ReportManager -         "id": 1,
+[INFO ] 2024-11-24 19:19:32.958 [main] ReportManager -         "title": "Introduction to Artificial Intelligence",
+[INFO ] 2024-11-24 19:19:32.958 [main] ReportManager -         "body": "Learn the basics of Artificial Intelligence and its applications in various industries.",
+[INFO ] 2024-11-24 19:19:32.958 [main] ReportManager -         "link": "https://example.com/article1",
+[INFO ] 2024-11-24 19:19:32.958 [main] ReportManager -         "comment_count": 8
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -         "userId": 2,
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -         "id": 2,
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -         "title": "Web Development with React",
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -         "body": "Build modern web applications using React.js and explore its powerful features.",
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -         "link": "https://example.com/article2",
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -         "comment_count": 12
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -         "userId": 3,
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -         "id": 3,
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -         "title": "Data Science Fundamentals",
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -         "body": "Dive into the world of Data Science and discover how to analyze and interpret data.",
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -         "link": "https://example.com/article3",
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -         "comment_count": 5
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -         "userId": 4,
+[INFO ] 2024-11-24 19:19:32.959 [main] ReportManager -         "id": 4,
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -         "title": "Machine Learning Algorithms",
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -         "body": "Explore various Machine Learning algorithms and understand their workings.",
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -         "link": "https://example.com/article4",
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -         "comment_count": 17
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -         "userId": 5,
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -         "id": 5,
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -         "title": "Introduction to Blockchain",
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -         "body": "Learn about Blockchain technology, its use-cases, and how it ensures secure transactions.",
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -         "link": "https://example.com/article5",
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -         "comment_count": 3
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -         "userId": 6,
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -         "id": 6,
+[INFO ] 2024-11-24 19:19:32.960 [main] ReportManager -         "title": "iOS App Development",
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -         "body": "Get started with iOS app development using Swift and create feature-rich applications.",
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -         "link": "https://example.com/article6",
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -         "comment_count": 10
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -         "userId": 7,
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -         "id": 7,
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -         "title": "Python for Data Analysis",
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -         "body": "Utilize Python libraries like Pandas and NumPy for data manipulation and analysis.",
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -         "link": "https://example.com/article7",
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -         "comment_count": 15
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -         "userId": 8,
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -         "id": 8,
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -         "title": "Cybersecurity Best Practices",
+[INFO ] 2024-11-24 19:19:32.961 [main] ReportManager -         "body": "Learn essential cybersecurity practices to safeguard your digital assets.",
+[INFO ] 2024-11-24 19:19:32.962 [main] ReportManager -         "link": "https://example.com/article8",
+[INFO ] 2024-11-24 19:19:32.962 [main] ReportManager -         "comment_count": 6
+[INFO ] 2024-11-24 19:19:32.962 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:32.962 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.962 [main] ReportManager -         "userId": 9,
+[INFO ] 2024-11-24 19:19:32.962 [main] ReportManager -         "id": 9,
+[INFO ] 2024-11-24 19:19:32.962 [main] ReportManager -         "title": "Cloud Computing Essentials",
+[INFO ] 2024-11-24 19:19:32.962 [main] ReportManager -         "body": "Understand the fundamentals of Cloud Computing and its benefits for businesses.",
+[INFO ] 2024-11-24 19:19:32.962 [main] ReportManager -         "link": "https://example.com/article9",
+[INFO ] 2024-11-24 19:19:32.962 [main] ReportManager -         "comment_count": 9
+[INFO ] 2024-11-24 19:19:32.962 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:32.962 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:32.962 [main] ReportManager -         "userId": 10,
+[INFO ] 2024-11-24 19:19:32.962 [main] ReportManager -         "id": 10,
+[INFO ] 2024-11-24 19:19:32.962 [main] ReportManager -         "title": "Introduction to UX Design",
+[INFO ] 2024-11-24 19:19:32.963 [main] ReportManager -         "body": "Discover the principles of User Experience (UX) design and create intuitive user interfaces.",
+[INFO ] 2024-11-24 19:19:32.963 [main] ReportManager -         "link": "https://example.com/article10",
+[INFO ] 2024-11-24 19:19:32.963 [main] ReportManager -         "comment_count": 21
+[INFO ] 2024-11-24 19:19:32.963 [main] ReportManager -     }
+[INFO ] 2024-11-24 19:19:32.963 [main] ReportManager - ]
+[INFO ] 2024-11-24 19:19:32.965 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testGetPosts'
+[INFO ] 2024-11-24 19:19:32.966 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                   Finished Execution of Test Method: 'TestPackage.SampleApiTest.testGetPosts'                                   
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-24 19:19:32.969 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 5' test cases in the current suite                                        
+                                              Test Method: 'TestPackage.SampleApiTest.testGetTodos'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-11-24 19:19:32.972 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-24 19:19:32.972 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-24 19:19:32.973 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/am575/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-24 19:19:32.979 [main] BasicClientConnectionManager - Get connection for route {s}->https://dummy-json.mock.beeceptor.com:443
+[DEBUG] 2024-11-24 19:19:32.979 [main] DefaultClientConnectionOperator - Connecting to dummy-json.mock.beeceptor.com:443
+[DEBUG] 2024-11-24 19:19:33.402 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-24 19:19:33.402 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-24 19:19:33.402 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-24 19:19:33.402 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-24 19:19:33.402 [main] DefaultClientConnection - Sending request: GET /todos HTTP/1.1
+[DEBUG] 2024-11-24 19:19:33.402 [main] wire -  >> "GET /todos HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.402 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.402 [main] wire -  >> "Host: dummy-json.mock.beeceptor.com[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.402 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.402 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.2)[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.402 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.402 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.402 [main] headers - >> GET /todos HTTP/1.1
+[DEBUG] 2024-11-24 19:19:33.402 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-24 19:19:33.402 [main] headers - >> Host: dummy-json.mock.beeceptor.com
+[DEBUG] 2024-11-24 19:19:33.402 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-24 19:19:33.402 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.2)
+[DEBUG] 2024-11-24 19:19:33.402 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-24 19:19:33.602 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.602 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.602 [main] wire -  << "Alt-Svc: h3=":443"; ma=2592000[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.602 [main] wire -  << "Content-Length: 1847[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.602 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.603 [main] wire -  << "Date: Sun, 24 Nov 2024 17:19:31 GMT[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.603 [main] wire -  << "Vary: Accept-Encoding[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.603 [main] wire -  << "X-Beeceptor-Rule-Id: xjw6vjxo8w[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.603 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-24 19:19:33.603 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-24 19:19:33.603 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-24 19:19:33.603 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-11-24 19:19:33.603 [main] headers - << Alt-Svc: h3=":443"; ma=2592000
+[DEBUG] 2024-11-24 19:19:33.603 [main] headers - << Content-Length: 1847
+[DEBUG] 2024-11-24 19:19:33.603 [main] headers - << Content-Type: application/json
+[DEBUG] 2024-11-24 19:19:33.604 [main] headers - << Date: Sun, 24 Nov 2024 17:19:31 GMT
+[DEBUG] 2024-11-24 19:19:33.604 [main] headers - << Vary: Accept-Encoding
+[DEBUG] 2024-11-24 19:19:33.604 [main] headers - << X-Beeceptor-Rule-Id: xjw6vjxo8w
+[DEBUG] 2024-11-24 19:19:33.604 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2024-11-24 19:19:33.605 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-24 19:19:33.606 [main] wire -  << "[[\n]"
+[DEBUG] 2024-11-24 19:19:33.606 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.606 [main] wire -  << "    "userId": 3,[\n]"
+[DEBUG] 2024-11-24 19:19:33.606 [main] wire -  << "    "id": 1,[\n]"
+[DEBUG] 2024-11-24 19:19:33.606 [main] wire -  << "    "title": "Buy groceries",[\n]"
+[DEBUG] 2024-11-24 19:19:33.606 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2024-11-24 19:19:33.606 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.606 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.606 [main] wire -  << "    "userId": 5,[\n]"
+[DEBUG] 2024-11-24 19:19:33.606 [main] wire -  << "    "id": 2,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "title": "Go for a walk",[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "id": 3,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "title": "Finish homework",[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "userId": 7,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "id": 4,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "title": "Read a book",[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "userId": 2,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "id": 5,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "title": "Pay bills",[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "userId": 4,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "id": 6,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "title": "Call a friend",[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "userId": 6,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "id": 7,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "title": "Clean the house",[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "userId": 9,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "id": 8,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "title": "Go to the gym",[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "userId": 8,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "id": 9,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "title": "Write a report",[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "userId": 2,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "id": 10,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "title": "Cook dinner",[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "id": 11,[\n]"
+[DEBUG] 2024-11-24 19:19:33.607 [main] wire -  << "    "t"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "itle": "Study for exams",[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "userId": 3,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "id": 12,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "title": "Do laundry",[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "userId": 5,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "id": 13,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "title": "Practice guitar",[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "userId": 7,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "id": 14,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "title": "Plan a trip",[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "userId": 9,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "id": 15,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "title": "Attend a meeting",[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "userId": 6,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "id": 16,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "title": "Water the plants",[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "userId": 4,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "id": 17,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "title": "Fix the car",[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "userId": 8,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "id": 18,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "title": "Watch a movie",[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "userId": 10,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "id": 19,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "title": "Visit the museum",[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "id": 20,[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "title": "Send an email",[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2024-11-24 19:19:33.608 [main] wire -  << "  }[\n]"
+[DEBUG] 2024-11-24 19:19:33.609 [main] wire -  << "]"
+[DEBUG] 2024-11-24 19:19:33.609 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@55a5eea3
+[DEBUG] 2024-11-24 19:19:33.609 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-24 19:19:33.610 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-24 19:19:33.610 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-24 19:19:33.610 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/am575/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-24 19:19:33.613 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-24 19:19:33.613 [main] ReportManager - Actual response status code "200" is successful (Between 200 and 299).
+[INFO ] 2024-11-24 19:19:33.631 [main] ReportManager - Handle response; GET | Response Time: 630ms.
+[INFO ] 2024-11-24 19:19:33.633 [main] ReportManager - TODOS: [
+[INFO ] 2024-11-24 19:19:33.633 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.633 [main] ReportManager -         "userId": 3,
+[INFO ] 2024-11-24 19:19:33.633 [main] ReportManager -         "id": 1,
+[INFO ] 2024-11-24 19:19:33.633 [main] ReportManager -         "title": "Buy groceries",
+[INFO ] 2024-11-24 19:19:33.633 [main] ReportManager -         "completed": false
+[INFO ] 2024-11-24 19:19:33.633 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.633 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.633 [main] ReportManager -         "userId": 5,
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -         "id": 2,
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -         "title": "Go for a walk",
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -         "completed": true
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -         "userId": 1,
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -         "id": 3,
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -         "title": "Finish homework",
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -         "completed": false
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -         "userId": 7,
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -         "id": 4,
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -         "title": "Read a book",
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -         "completed": true
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.634 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -         "userId": 2,
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -         "id": 5,
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -         "title": "Pay bills",
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -         "completed": false
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -         "userId": 4,
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -         "id": 6,
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -         "title": "Call a friend",
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -         "completed": true
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -         "userId": 6,
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -         "id": 7,
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -         "title": "Clean the house",
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -         "completed": false
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -         "userId": 9,
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -         "id": 8,
+[INFO ] 2024-11-24 19:19:33.635 [main] ReportManager -         "title": "Go to the gym",
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -         "completed": true
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -         "userId": 8,
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -         "id": 9,
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -         "title": "Write a report",
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -         "completed": false
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -         "userId": 2,
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -         "id": 10,
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -         "title": "Cook dinner",
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -         "completed": true
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -         "userId": 1,
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -         "id": 11,
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -         "title": "Study for exams",
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -         "completed": false
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.636 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "userId": 3,
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "id": 12,
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "title": "Do laundry",
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "completed": true
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "userId": 5,
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "id": 13,
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "title": "Practice guitar",
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "completed": false
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "userId": 7,
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "id": 14,
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "title": "Plan a trip",
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "completed": true
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "userId": 9,
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "id": 15,
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "title": "Attend a meeting",
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "completed": false
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.637 [main] ReportManager -         "userId": 6,
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -         "id": 16,
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -         "title": "Water the plants",
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -         "completed": true
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -         "userId": 4,
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -         "id": 17,
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -         "title": "Fix the car",
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -         "completed": false
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -         "userId": 8,
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -         "id": 18,
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -         "title": "Watch a movie",
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -         "completed": true
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -         "userId": 10,
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -         "id": 19,
+[INFO ] 2024-11-24 19:19:33.638 [main] ReportManager -         "title": "Visit the museum",
+[INFO ] 2024-11-24 19:19:33.639 [main] ReportManager -         "completed": false
+[INFO ] 2024-11-24 19:19:33.639 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:33.639 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:33.639 [main] ReportManager -         "userId": 1,
+[INFO ] 2024-11-24 19:19:33.639 [main] ReportManager -         "id": 20,
+[INFO ] 2024-11-24 19:19:33.639 [main] ReportManager -         "title": "Send an email",
+[INFO ] 2024-11-24 19:19:33.639 [main] ReportManager -         "completed": true
+[INFO ] 2024-11-24 19:19:33.639 [main] ReportManager -     }
+[INFO ] 2024-11-24 19:19:33.639 [main] ReportManager - ]
+[INFO ] 2024-11-24 19:19:33.641 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testGetTodos'
+[INFO ] 2024-11-24 19:19:33.641 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                   Finished Execution of Test Method: 'TestPackage.SampleApiTest.testGetTodos'                                   
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-24 19:19:33.645 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 5' test cases in the current suite                                        
+                                              Test Method: 'TestPackage.SampleApiTest.testGetUsers'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-11-24 19:19:33.649 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-24 19:19:33.649 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-24 19:19:33.649 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/am575/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-24 19:19:33.657 [main] BasicClientConnectionManager - Get connection for route {s}->https://fake-json-api.mock.beeceptor.com:443
+[DEBUG] 2024-11-24 19:19:33.657 [main] DefaultClientConnectionOperator - Connecting to fake-json-api.mock.beeceptor.com:443
+[DEBUG] 2024-11-24 19:19:34.063 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-24 19:19:34.063 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-24 19:19:34.063 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-24 19:19:34.063 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-24 19:19:34.063 [main] DefaultClientConnection - Sending request: GET /users HTTP/1.1
+[DEBUG] 2024-11-24 19:19:34.063 [main] wire -  >> "GET /users HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.063 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.063 [main] wire -  >> "Host: fake-json-api.mock.beeceptor.com[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.063 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.063 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.2)[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.063 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.063 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.063 [main] headers - >> GET /users HTTP/1.1
+[DEBUG] 2024-11-24 19:19:34.063 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-24 19:19:34.063 [main] headers - >> Host: fake-json-api.mock.beeceptor.com
+[DEBUG] 2024-11-24 19:19:34.063 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-24 19:19:34.063 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.2)
+[DEBUG] 2024-11-24 19:19:34.063 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-24 19:19:34.292 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.292 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.293 [main] wire -  << "Alt-Svc: h3=":443"; ma=2592000[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.293 [main] wire -  << "Content-Length: 3826[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.293 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.293 [main] wire -  << "Date: Sun, 24 Nov 2024 17:19:31 GMT[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.293 [main] wire -  << "Vary: Accept-Encoding[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.293 [main] wire -  << "X-Beeceptor-Rule-Id: h33qiirhz6[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.293 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-24 19:19:34.294 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-24 19:19:34.294 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-24 19:19:34.294 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-11-24 19:19:34.294 [main] headers - << Alt-Svc: h3=":443"; ma=2592000
+[DEBUG] 2024-11-24 19:19:34.294 [main] headers - << Content-Length: 3826
+[DEBUG] 2024-11-24 19:19:34.294 [main] headers - << Content-Type: application/json
+[DEBUG] 2024-11-24 19:19:34.294 [main] headers - << Date: Sun, 24 Nov 2024 17:19:31 GMT
+[DEBUG] 2024-11-24 19:19:34.294 [main] headers - << Vary: Accept-Encoding
+[DEBUG] 2024-11-24 19:19:34.294 [main] headers - << X-Beeceptor-Rule-Id: h33qiirhz6
+[DEBUG] 2024-11-24 19:19:34.295 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2024-11-24 19:19:34.295 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-24 19:19:34.297 [main] wire -  << "[[\n]"
+[DEBUG] 2024-11-24 19:19:34.297 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:34.297 [main] wire -  << "    "id": 1,[\n]"
+[DEBUG] 2024-11-24 19:19:34.297 [main] wire -  << "    "name": "Glenna Legros",[\n]"
+[DEBUG] 2024-11-24 19:19:34.297 [main] wire -  << "    "company": "Morissette Group",[\n]"
+[DEBUG] 2024-11-24 19:19:34.297 [main] wire -  << "    "username": "Dallin59",[\n]"
+[DEBUG] 2024-11-24 19:19:34.297 [main] wire -  << "    "email": "Alexa73@hotmail.com",[\n]"
+[DEBUG] 2024-11-24 19:19:34.297 [main] wire -  << "    "address": "8045 Leuschke Mill",[\n]"
+[DEBUG] 2024-11-24 19:19:34.297 [main] wire -  << "    "zip": "97487-0038",[\n]"
+[DEBUG] 2024-11-24 19:19:34.297 [main] wire -  << "    "state": "South Carolina",[\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "    "country": "Bhutan",[\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "    "phone": "848.624.0060",[\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "    "photo": "https://json-server.dev/ai-profiles/53.png"[\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "  }, [\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "    "id": 2,[\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "    "name": "Ellis Faker Attribute Error: person.astName is not supported",[\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "    "company": "Watsica, Connelly and Hessel",[\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "    "username": "Sincere.Balistreri94",[\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "    "email": "Alicia.Jacobi82@yahoo.com",[\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "    "address": "620 Prospect Place",[\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "    "zip": "09251",[\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "    "state": "Florida",[\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "    "country": "Finland",[\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "    "phone": "(983) 550-7024 x3889",[\n]"
+[DEBUG] 2024-11-24 19:19:34.298 [main] wire -  << "    "photo": "https://json-server.dev/ai-profiles/82.png"[\n]"
+[DEBUG] 2024-11-24 19:19:34.299 [main] wire -  << "  }, [\n]"
+[DEBUG] 2024-11-24 19:19:34.299 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:34.299 [main] wire -  << "    "id": 3,[\n]"
+[DEBUG] 2024-11-24 19:19:34.299 [main] wire -  << "    "name": "Mauricio Heidenreich",[\n]"
+[DEBUG] 2024-11-24 19:19:34.299 [main] wire -  << "    "company": "Lebsack Group",[\n]"
+[DEBUG] 2024-11-24 19:19:34.299 [main] wire -  << "    "username": "Margarita.Kessler",[\n]"
+[DEBUG] 2024-11-24 19:19:34.299 [main] wire -  << "    "email": "Gail.Hickle10@yahoo.com",[\n]"
+[DEBUG] 2024-11-24 19:19:34.299 [main] wire -  << "    "a"
+[DEBUG] 2024-11-24 19:19:34.300 [main] wire -  << "ddress": "650 Gibson Squares",[\n]"
+[DEBUG] 2024-11-24 19:19:34.300 [main] wire -  << "    "zip": "76046",[\n]"
+[DEBUG] 2024-11-24 19:19:34.300 [main] wire -  << "    "state": "West Virginia",[\n]"
+[DEBUG] 2024-11-24 19:19:34.300 [main] wire -  << "    "country": "Afghanistan",[\n]"
+[DEBUG] 2024-11-24 19:19:34.300 [main] wire -  << "    "phone": "(262) 226-8585",[\n]"
+[DEBUG] 2024-11-24 19:19:34.300 [main] wire -  << "    "photo": "https://json-server.dev/ai-profiles/65.png"[\n]"
+[DEBUG] 2024-11-24 19:19:34.300 [main] wire -  << "  }, [\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "    "id": 4,[\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "    "name": "Corrine Kuphal",[\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "    "company": "Steuber - Hane",[\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "    "username": "Art_Lind75",[\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "    "email": "Hollis_Beier@gmail.com",[\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "    "address": "468 Collier Extension",[\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "    "zip": "44614-8695",[\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "    "state": "Nevada",[\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "    "country": "Democratic Republic of the Congo",[\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "    "phone": "(516) 975-3886 x53618",[\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "    "photo": "https://json-server.dev/ai-profiles/19.png"[\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "  }, [\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "    "id": 5,[\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "    "name": "Amanda Franecki",[\n]"
+[DEBUG] 2024-11-24 19:19:34.301 [main] wire -  << "    "company": "Ritchie - Hoppe",[\n]"
+[DEBUG] 2024-11-24 19:19:34.302 [main] wire -  << "    "username": "Christa_Collier66",[\n]"
+[DEBUG] 2024-11-24 19:19:34.302 [main] wire -  << "    "email": "David.Bernhard@yahoo.com",[\n]"
+[DEBUG] 2024-11-24 19:19:34.302 [main] wire -  << "    "address": "210 Flatley Mount",[\n]"
+[DEBUG] 2024-11-24 19:19:34.302 [main] wire -  << "    "zip": "45742",[\n]"
+[DEBUG] 2024-11-24 19:19:34.303 [main] wire -  << "    "state": "Wyoming",[\n]"
+[DEBUG] 2024-11-24 19:19:34.303 [main] wire -  << "    "country": "Democratic People&#x27;s Republic of Korea",[\n]"
+[DEBUG] 2024-11-24 19:19:34.303 [main] wire -  << "    "phone": "931-956-8088 x18309",[\n]"
+[DEBUG] 2024-11-24 19:19:34.303 [main] wire -  << "    "photo": "https://json-server.dev/ai-profiles/77.png"[\n]"
+[DEBUG] 2024-11-24 19:19:34.303 [main] wire -  << "  }, [\n]"
+[DEBUG] 2024-11-24 19:19:34.303 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:34.303 [main] wire -  << "    "id": 6,[\n]"
+[DEBUG] 2024-11-24 19:19:34.303 [main] wire -  << "    "name": "Georgette Ernser",[\n]"
+[DEBUG] 2024-11-24 19:19:34.303 [main] wire -  << "    "company": "Schuster - Prosacco",[\n]"
+[DEBUG] 2024-11-24 19:19:34.303 [main] wire -  << "    "username": "Declan.Sanford13",[\n]"
+[DEBUG] 2024-11-24 19:19:34.303 [main] wire -  << "    "email": "Sandrine_Hettinger99@hotmail.com",[\n]"
+[DEBUG] 2024-11-24 19:19:34.303 [main] wire -  << "    "address": "9454 Junius Shoals",[\n]"
+[DEBUG] 2024-11-24 19:19:34.303 [main] wire -  << "    "zip": "15083",[\n]"
+[DEBUG] 2024-11-24 19:19:34.303 [main] wire -  << "    "state": "Vermont",[\n]"
+[DEBUG] 2024-11-24 19:19:34.303 [main] wire -  << "    "country": "Singapore",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "phone": "(390) 437-4269",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "photo": "https://json-server.dev/ai-profiles/46.png"[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "  }, [\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "id": 7,[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "name": "Shayna Wisozk",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "company": "Luettgen, Pagac and Conn",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "username": "Yasmine46",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "email": "Fermin_Mueller@gmail.com",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "address": "68701 S Park Street",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "zip": "64628",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "state": "Vermont",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "country": "Dominican Republic",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "phone": "902-792-5958",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "photo": "https://json-server.dev/ai-profiles/3.png"[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "id": 8,[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "name": "Shaina Crooks",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "company": "Rogahn, Willms and Moore",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "username": "Rene.Heidenreich3",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "email": "Howard_Hoeger@yahoo.com",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "address": "5043 Walnut Street",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "zip": "17390",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "state": "Alaska",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "country": "Guadeloupe",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "phone": "352-577-1499",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "photo": "https://json-server.dev/ai-profiles/92.png"[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "  }, [\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "id": 9,[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "name": "Antone Beatty",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "company": "O&#x27;Reilly, Leannon and Blick",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "username": "Retha60",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "email": "Dale_Cartwright1@hotmail.com",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "address": "7584 Schaden Wells",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "zip": "07514",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "state": "Idaho",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "country":"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << " "Qatar",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "phone": "1-970-535-2971 x0818",[\n]"
+[DEBUG] 2024-11-24 19:19:34.304 [main] wire -  << "    "photo": "https://json-server.dev/ai-profiles/32.png"[\n]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] wire -  << "  }, [\n]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] wire -  << "    "id": 10,[\n]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] wire -  << "    "name": "Jess Walker",[\n]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] wire -  << "    "company": "Gutkowski, Jacobson and Maggio",[\n]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] wire -  << "    "username": "Meta.Harvey95",[\n]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] wire -  << "    "email": "Burdette.Mraz@gmail.com",[\n]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] wire -  << "    "address": "39931 VonRueden Forge",[\n]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] wire -  << "    "zip": "12493-1091",[\n]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] wire -  << "    "state": "Virginia",[\n]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] wire -  << "    "country": "Saint Lucia",[\n]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] wire -  << "    "phone": "1-448-829-3294 x7097",[\n]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] wire -  << "    "photo": "https://json-server.dev/ai-profiles/63.png"[\n]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] wire -  << "  }[\n]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] wire -  << "]"
+[DEBUG] 2024-11-24 19:19:34.305 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4dc16fc9
+[DEBUG] 2024-11-24 19:19:34.305 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-24 19:19:34.306 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-24 19:19:34.306 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-24 19:19:34.306 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/am575/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-24 19:19:34.309 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-24 19:19:34.309 [main] ReportManager - Actual response status code "200" is successful (Between 200 and 299).
+[INFO ] 2024-11-24 19:19:34.330 [main] ReportManager - Handle response; GET | Response Time: 643ms.
+[INFO ] 2024-11-24 19:19:34.332 [main] ReportManager - Users: [
+[INFO ] 2024-11-24 19:19:34.332 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:34.332 [main] ReportManager -         "id": 1,
+[INFO ] 2024-11-24 19:19:34.332 [main] ReportManager -         "name": "Glenna Legros",
+[INFO ] 2024-11-24 19:19:34.332 [main] ReportManager -         "company": "Morissette Group",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "username": "Dallin59",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "email": "Alexa73@hotmail.com",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "address": "8045 Leuschke Mill",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "zip": "97487-0038",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "state": "South Carolina",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "country": "Bhutan",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "phone": "848.624.0060",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "photo": "https://json-server.dev/ai-profiles/53.png"
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "id": 2,
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "name": "Ellis Faker Attribute Error: person.astName is not supported",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "company": "Watsica, Connelly and Hessel",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "username": "Sincere.Balistreri94",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "email": "Alicia.Jacobi82@yahoo.com",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "address": "620 Prospect Place",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "zip": "09251",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "state": "Florida",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "country": "Finland",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "phone": "(983) 550-7024 x3889",
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -         "photo": "https://json-server.dev/ai-profiles/82.png"
+[INFO ] 2024-11-24 19:19:34.333 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "id": 3,
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "name": "Mauricio Heidenreich",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "company": "Lebsack Group",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "username": "Margarita.Kessler",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "email": "Gail.Hickle10@yahoo.com",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "address": "650 Gibson Squares",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "zip": "76046",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "state": "West Virginia",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "country": "Afghanistan",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "phone": "(262) 226-8585",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "photo": "https://json-server.dev/ai-profiles/65.png"
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "id": 4,
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "name": "Corrine Kuphal",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "company": "Steuber - Hane",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "username": "Art_Lind75",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "email": "Hollis_Beier@gmail.com",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "address": "468 Collier Extension",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "zip": "44614-8695",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "state": "Nevada",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "country": "Democratic Republic of the Congo",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "phone": "(516) 975-3886 x53618",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "photo": "https://json-server.dev/ai-profiles/19.png"
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "id": 5,
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "name": "Amanda Franecki",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "company": "Ritchie - Hoppe",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "username": "Christa_Collier66",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "email": "David.Bernhard@yahoo.com",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "address": "210 Flatley Mount",
+[INFO ] 2024-11-24 19:19:34.334 [main] ReportManager -         "zip": "45742",
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "state": "Wyoming",
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "country": "Democratic People&#x27;s Republic of Korea",
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "phone": "931-956-8088 x18309",
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "photo": "https://json-server.dev/ai-profiles/77.png"
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "id": 6,
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "name": "Georgette Ernser",
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "company": "Schuster - Prosacco",
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "username": "Declan.Sanford13",
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "email": "Sandrine_Hettinger99@hotmail.com",
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "address": "9454 Junius Shoals",
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "zip": "15083",
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "state": "Vermont",
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "country": "Singapore",
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "phone": "(390) 437-4269",
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "photo": "https://json-server.dev/ai-profiles/46.png"
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "id": 7,
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "name": "Shayna Wisozk",
+[INFO ] 2024-11-24 19:19:34.335 [main] ReportManager -         "company": "Luettgen, Pagac and Conn",
+[INFO ] 2024-11-24 19:19:34.336 [main] ReportManager -         "username": "Yasmine46",
+[INFO ] 2024-11-24 19:19:34.336 [main] ReportManager -         "email": "Fermin_Mueller@gmail.com",
+[INFO ] 2024-11-24 19:19:34.336 [main] ReportManager -         "address": "68701 S Park Street",
+[INFO ] 2024-11-24 19:19:34.336 [main] ReportManager -         "zip": "64628",
+[INFO ] 2024-11-24 19:19:34.336 [main] ReportManager -         "state": "Vermont",
+[INFO ] 2024-11-24 19:19:34.336 [main] ReportManager -         "country": "Dominican Republic",
+[INFO ] 2024-11-24 19:19:34.336 [main] ReportManager -         "phone": "902-792-5958",
+[INFO ] 2024-11-24 19:19:34.336 [main] ReportManager -         "photo": "https://json-server.dev/ai-profiles/3.png"
+[INFO ] 2024-11-24 19:19:34.336 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:34.336 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:34.336 [main] ReportManager -         "id": 8,
+[INFO ] 2024-11-24 19:19:34.336 [main] ReportManager -         "name": "Shaina Crooks",
+[INFO ] 2024-11-24 19:19:34.336 [main] ReportManager -         "company": "Rogahn, Willms and Moore",
+[INFO ] 2024-11-24 19:19:34.336 [main] ReportManager -         "username": "Rene.Heidenreich3",
+[INFO ] 2024-11-24 19:19:34.336 [main] ReportManager -         "email": "Howard_Hoeger@yahoo.com",
+[INFO ] 2024-11-24 19:19:34.337 [main] ReportManager -         "address": "5043 Walnut Street",
+[INFO ] 2024-11-24 19:19:34.337 [main] ReportManager -         "zip": "17390",
+[INFO ] 2024-11-24 19:19:34.337 [main] ReportManager -         "state": "Alaska",
+[INFO ] 2024-11-24 19:19:34.337 [main] ReportManager -         "country": "Guadeloupe",
+[INFO ] 2024-11-24 19:19:34.337 [main] ReportManager -         "phone": "352-577-1499",
+[INFO ] 2024-11-24 19:19:34.337 [main] ReportManager -         "photo": "https://json-server.dev/ai-profiles/92.png"
+[INFO ] 2024-11-24 19:19:34.337 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:34.337 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:34.337 [main] ReportManager -         "id": 9,
+[INFO ] 2024-11-24 19:19:34.337 [main] ReportManager -         "name": "Antone Beatty",
+[INFO ] 2024-11-24 19:19:34.337 [main] ReportManager -         "company": "O&#x27;Reilly, Leannon and Blick",
+[INFO ] 2024-11-24 19:19:34.337 [main] ReportManager -         "username": "Retha60",
+[INFO ] 2024-11-24 19:19:34.337 [main] ReportManager -         "email": "Dale_Cartwright1@hotmail.com",
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -         "address": "7584 Schaden Wells",
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -         "zip": "07514",
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -         "state": "Idaho",
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -         "country": "Qatar",
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -         "phone": "1-970-535-2971 x0818",
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -         "photo": "https://json-server.dev/ai-profiles/32.png"
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -     },
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -     {
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -         "id": 10,
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -         "name": "Jess Walker",
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -         "company": "Gutkowski, Jacobson and Maggio",
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -         "username": "Meta.Harvey95",
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -         "email": "Burdette.Mraz@gmail.com",
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -         "address": "39931 VonRueden Forge",
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -         "zip": "12493-1091",
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -         "state": "Virginia",
+[INFO ] 2024-11-24 19:19:34.338 [main] ReportManager -         "country": "Saint Lucia",
+[INFO ] 2024-11-24 19:19:34.339 [main] ReportManager -         "phone": "1-448-829-3294 x7097",
+[INFO ] 2024-11-24 19:19:34.339 [main] ReportManager -         "photo": "https://json-server.dev/ai-profiles/63.png"
+[INFO ] 2024-11-24 19:19:34.339 [main] ReportManager -     }
+[INFO ] 2024-11-24 19:19:34.339 [main] ReportManager - ]
+[INFO ] 2024-11-24 19:19:34.341 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testGetUsers'
+[INFO ] 2024-11-24 19:19:34.341 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                   Finished Execution of Test Method: 'TestPackage.SampleApiTest.testGetUsers'                                   
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-24 19:19:34.344 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-24 19:19:34.345 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
